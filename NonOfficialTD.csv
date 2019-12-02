@@ -14,14 +14,13 @@ Variable ID,Variable name,Variable synonyms,Trait name,Main trait abbreviation,A
 ,IntRLng_M_cm,"IntLng_M_cm_4",Length of internode remaining after peduncle -2,,,cm,Internode remaining length (after internode 4 or peduncle -3) measured in cm and sampled at 7DAA
 ,RUE_Calc_gMJ_1,,Radiation use efficiency,RUE_E40InB,,g/MJ,The amount of biomass produced per unit of intercepted solar radiation from canopy closure to initation of booting.
 ,RUE_Calc_gMJ_2,,Radiation use efficiency,RUE_InBA,,g/MJ,The amount of biomass produced per unit of intercepted solar radiation from initation of booting to anthesis.
-,SpkDW_Calc_gm2,,Spike dry weight per unit area at anthesis,,,,
 ,CT_M_C_VgP,"CT_M_C_vg",Canopy temperature as the average of several measurements during the vegetative period,,,,
 ,LamDW_M_g,,Lamina dry weight per shoot at anthesis,LamDM,LamDW,g/m2,Lamina DW in g/m2 sampled at 7DAA
 ,FLN_M_pct,,Nitrogen concentration in the flag leaf at seven days after anthesis,LamN,,%,Leaf lamina nitrogen content in the flag leaf at 7DAA
 ,NDVI_M_Idx_Emer,,Canopy normalized difference vegetation index at plot establishment,,,,
 ,NDVI_M_Idx_InB,,Canopy normalized difference vegetation index at initiation of booting,,,,
 ,NDVI_M_Idx_Hd,,Canopy normalized difference vegetation index,,,,
-,NDVI_M_Idx_GfP,,Canopy normalized difference vegetation index as the average of several measurements during the grain filling period,,,,
+,NDVI_M_Idx_GFP,,Canopy normalized difference vegetation index as the average of several measurements during the grain filling period,,,,
 ,NDVI_M_Idx_t1,,Canopy normalized difference vegetation index at t1 ground base level,,,,
 ,NDVI_M_Idx_t2,,Canopy normalized difference vegetation index at t2 ground base level,,,,
 ,NDVI_M_Idx_t3,,Canopy normalized difference vegetation index at t3 ground base level,,,,
