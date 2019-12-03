@@ -458,7 +458,7 @@ CO_321:0001608,StmWSC_NIR_pct,,Stem water soluble carbohydrate,StmWSC,"STEMWSC, 
 CO_321:0001609,StmWSC_Atrone_pct,,Stem water soluble carbohydrate,StmWSC,"STEMWSC, WSC, ",%,"Water soluble carbohydrates accumulate up to and around anthesis and are partitioned to the stem, from where they are later available as a reservoir for remobilization to the developing grains. These reserves are an important source of carbon for grain filling."
 CO_321:0001610,SpkPho_Textile_pct,,Spike photosynthesis contribution,SpkPho,,%,Photosynthetic contribution of the spike (ear) to grain yield. 
 CO_321:0001611,FE_Calc_Idx,,Fruiting efficiency,FE,,index,"The final outcome of the floret developmental rates (determining the number of floret primordia that reach the stage of fertile florets at anthesis) and the proportion of grain set per fertile floret (the opposite to grain abortion), per unit of spike weight."
-CO_321:0001613,LeafPI_M_Idx,,Leaf lamina partitioning index,LeafPI,LPI,index,Leaf lamina partitioning index.
+CO_321:0001613,LeafPI_M_Idx,,Leaf lamina partitioning index,LeafPI,"LPI,LamPI",index,Leaf lamina partitioning index.
 CO_321:0001614,LeafSPI_M_Idx,,Leaf sheath partitioning index,LeafSPI,LSPI,index,Leaf sheath partitioning index.
 CO_321:0001615,TSPI_M_Idx,,True stem partitioning index,TSPI,TSPI,index,True stem partitioning index.
 CO_321:0001616,SLA_M_m2kg1,,Specific leaf area,SLA,,m2/kg,A ratio of the leaf area to dry mass.
