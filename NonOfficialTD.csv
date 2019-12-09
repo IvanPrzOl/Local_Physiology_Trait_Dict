@@ -3,6 +3,7 @@ Variable ID,Variable name,Variable synonyms,Trait name,Main trait abbreviation,A
 ,CropGrwRate_Calc_gm2day_InB7DAA,,Crop growth rate from initiation of booting to anthesis,,,,
 ,CropGrwRate_Calc_gm2day_GFP,,Crop growth rate during the grain filling period,,,,
 ,StmDW_M_g,,Stem plus sheath dry weight per shoot at anthesis,,,,
+,StmDW_M_gm2,,Stem plus sheath dry weight in g/m2,,,,
 ,SpkDW_M_g,,Spike dry weight per shoot at anthesis,LamDM,LamDW,g/shoot,Lamina DW in g/shoot sampled at 7DAA
 ,CT_M_C_GFP,,Canopy temperature as the average of several measurements during the grain filling period,,,,
 ,TStmDW_M_g,,True stem dry weight per shoot at anthesis,,,,
