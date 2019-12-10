@@ -123,3 +123,4 @@ Variable ID,Variable name,Variable synonyms,Trait name,Main trait abbreviation,A
 ,FLeafDW_M_mg,,Flag leaf lamina fresh weight,,,,
 ,FLeafFW_M_mg,,Flag leaf lamina dry weight,,,,
 ,LRollSev_E_1to10,,,,,,
+,StmPI_M_Idx,,Stem plus sheath partitioning index,,,,
