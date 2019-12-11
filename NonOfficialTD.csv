@@ -134,3 +134,5 @@ Variable ID,Variable name,Variable synonyms,Trait name,Main trait abbreviation,A
 ,StLSPI_M_Idx,,Stem plus leaf sheath partitioning index,,,,
 ,StLSDW_M_g,,Stem plus leaf sheath dry weight per shoot at anthesis,,,,
 ,StLSDW_M_gm2,,Stem plus leaf sheath dry weight per shoot at anthesis,,,,
+,SpkDW_M_gm2,,"Spike dry weight per unit area at anthesis"
+,LamDW_M_gm2,,"Lamina dry weight per unit area at anthesis"
