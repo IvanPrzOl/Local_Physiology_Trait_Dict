@@ -8,7 +8,7 @@ Variable ID,Variable name,Variable synonyms,Trait name,Main trait abbreviation,A
 ,CT_M_C_GFP,,Canopy temperature as the average of several measurements during the grain filling period,,,,
 ,TStmDW_M_g,,True stem dry weight per shoot at anthesis,,,,
 ,SheathDW_M_g,,Leaf sheath dry weight per shoot at anthesis,,,,
-,BM_E_1to5,,,,,,
+,BM_E_1to5,,visual biomass estimation,,,,
 ,NDVI_M_Idx_VgP,,Canopy normalized difference vegetation index as the average of several measurements during the vegetative period,,,,
 ,Int2Lng_M_cm,"IntLng_M_cm_2",Length of internode 2 or peduncle -1,,,cm,Internode 2 length (peduncle -1) measured in cm and sampled at 7DAA
 ,Int3Lng_M_cm,"IntLng_M_cm_3",Length of internode 3 or peduncle -2,,,cm,Internode 3 length (peduncle -2) measured in cm and sampled at 7DAA
