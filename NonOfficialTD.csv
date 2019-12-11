@@ -86,16 +86,12 @@ Variable ID,Variable name,Variable synonyms,Trait name,Main trait abbreviation,A
 ,PlantGlau_E_1to10,,,,,,
 ,SN_Calc_Spksm2_7DAA,,Spike number per unit area at seven days after anthesis,,"SpikeNo_A7",,
 ,StmWSC_M_pct_A,,Stem water soluble carbohydrate concentration at anthesis,,,,
-,StmWSC_M_pct_7DAA,,Stem water soluble carbohydrate concentration at 7 days after anthesis,,,,
 ,StmWSC_M_pct_PM,,Stem water soluble carbohydrate concentration at physiological maturity,,,,
 ,StmWSC_M_gm2_A,,Stem water soluble carbohydrate amount per unit area at anthesis,,,,
-,StmWSC_M_gm2_7DAA,,Stem water soluble carbohydrate amount per unit area at 7 days after anthesis,,,,
 ,StmWSC_M_gm2_PM,,Stem water soluble carbohydrate amount per unit area at physiological maturity,,,,
 ,SpkWSC_M_pct_A,,Spike water soluble carbohydrate concentration at anthesis,StmWSC,"STEMWSC, WSC, ",%,"Water soluble carbohydrates accumulate up to and around anthesis and are partitioned to the stem, from where they are later available as a reservoir for remobilization to the developing grains. These reserves are an important source of carbon for grain filling."
-,SpkWSC_M_pct_7DAA,,Spike water soluble carbohydrate concentration at 7 days after anthesis,,,,
 ,SpkWSC_M_pct_PM,,Spike water soluble carbohydrate concentration at physiological maturity,,,,
 ,SpkWSC_M_gm2_A,,Spike water soluble carbohydrate amount per unit area at anthesis,,,,
-,SpkWSC_M_pct_7DAA,,Spike water soluble carbohydrate amount per unit area at 7 days after anthesis,,,,
 ,SpkWSC_M_gm2_PM,,Spike water soluble carbohydrate amount per unit area at physiological maturity,,,,
 ,StdEst_E_1to5,,Stand establishment,StdEst,,,Measurement of plant emergence and vigor in the field.
 ,CGR_Calc_gm2day_preA,,Crop growth rate during the pre-anthesis period,,,,
