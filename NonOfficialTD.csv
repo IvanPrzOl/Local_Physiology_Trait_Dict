@@ -31,6 +31,8 @@ Variable ID,Variable name,Variable synonyms,Trait name,Main trait abbreviation,A
 ,NDVI_M_Idx_t7,,Canopy normalized difference vegetation index at t7 ground base level,,,,
 ,NDVI_M_Idx_t8,,Canopy normalized difference vegetation index at t8 ground base level,,,,
 ,NDVI_M_Idx_t9,,Canopy normalized difference vegetation index at t9 ground base level,,,,
+,NDVI_M_Idx_t10,,Canopy normalized difference vegetation index at t10 ground base level,,,,
+,NDVI_M_Idx_t11,,Canopy normalized difference vegetation index at t11 ground base level,,,,
 ,NDVI_M_Idx_RS_t1,,Canopy normalized difference vegetation index at t1 using remote sensing,,,,
 ,NDVI_M_Idx_RS_t2,,Canopy normalized difference vegetation index at t2 using remote sensing,,,,
 ,NDVI_M_Idx_RS_t3,,Canopy normalized difference vegetation index at t3 using remote sensing,,,,
