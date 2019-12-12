@@ -140,3 +140,4 @@ Variable ID,Variable name,Variable synonyms,Trait name,Main trait abbreviation,A
 ,LamDW_M_gm2,,"Lamina dry weight per unit area at anthesis"
 ,Chl_M_CCI_L2_Hd,,Leaf chlorophyll content in the leaf 2 at heading,,,,
 ,Chl_M_CCI_L3_Hd,,Leaf chlorophyll content in the leaf 3 at heading,,,,
+,StmPI_M_Idx,,Stem partitioning index,,,,
