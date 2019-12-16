@@ -143,3 +143,5 @@ Variable ID,Variable name,Variable synonyms,Trait name,Main trait abbreviation,A
 ,StmPI_M_Idx,,Stem partitioning index,,,,
 ,CanArchScr_E_1to9_t1,,,,,,
 ,CanArchScr_E_1to9_t2,,,,,,
+,LRollSev_E_1to5_t1,,"Leaf rolling severity at t1",,,,
+,LRollSev_E_1to5_t2,,"Leaf rolling severity at t2",,,,
