@@ -1,6 +1,6 @@
-## Files description:
-**OfficialTD.csv**, variable names taken from [CropOntology](https://www.cropontology.org/).
+## register_status column description:
+**official**: variable name taken from [CropOntology](https://www.cropontology.org/).
 
-**NonOfficial.csv**, variable names generated locally in the Wheat Physiology Group.
+**not official**: locally used variable name in the Wheat Physiology Group.
 
-**ToDo.csv**, pending variable names to be defined.
+**no name defined**: name definition in progress.
