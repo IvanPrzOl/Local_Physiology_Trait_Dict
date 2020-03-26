@@ -1,0 +1,709 @@
+Variable ID,Variable name,Variable synonyms,Trait name,Main trait abbreviation,Alternative trait abbreviations,Scale name,Trait description,register_status,Lower limit,Upper limit
+CO_321:0001217,GY_Calc_gm2,"Yld_gm2, GY_gm2, GRNYLD_g_m2",Grain yield,GY,"GrnYld, Yld",g/m2,Amount (weight) of grains that was harvested.,official,0.0,2000.0
+CO_321:0001213,GW_M_g1000grn,"TGW, TKW, THOUWT, TGW_g",Grain weight,GW,"GrnWt, GrnW, KW, KrnWt",g/1000 grain,"Grain weight usually expressed as weight of single, one hundred, two hundred or thousand grains.",official,20.0,70.0
+CO_321:0001231,HI_Calc_Idx,HI_index,Harvest index,HI,,index,A ratio of grain yield to total above ground biomass.,official,0.0,0.7
+CO_321:0001034,BM_Calc_gm2,BM_g_m2,Aboveground biomass at maturity,BM,"AGBM, BMMat, BIOMAS",g/m2,All above-ground biomass at maturity.,official,0.0,20.0
+CO_321:0001199,GN_Calc_Grnm2,"GNO, grains/m2, GM2, kernel/m2, KNO, GNO_grains_m2",Grain number,GN,"GNO, GrnNo, KrnNo, KN",grain/m2,Number of grains expressed as per unit area or sample.,official,1000.0,50000.0
+CO_321:0001599,SN_Calc_Spksm2,,Spike number ,SN,"SNO, SpkNO, SpkNo",spike/m2,"Number of spikes (fertile culms) per unit area, sample or plant.",official,0.0,1000.0
+CO_321:0001200,GrnSpk_Calc_GrnSpk,"GRNSPK, grains/spike, GRNSPK_num",Grain number per spike,GrnSpk,GRNSPK,grain/spike,Number of grains per spike.,official,10.0,300.0
+CO_321:0001190,GFP_calc_pct,GFILLPERIOD_pct,Grain filling period,GFP,"GFillPeriod, GfillP,",%,Time period between anthesis (ds65) and maturity (ds87).,official,5.0,50.0
+CO_321:0001301,PH_M_cm,PH_cm,Plant height,PH,"PlntHt, PHt",cm,"Height of plant from ground to top of spike, excluding awns.",official,40.0,180.0
+CO_321:0001460,StdEst_E_1to3,,Stand establishment,StdEst,,1-3 STDEST scale,Measurement of plant emergence and vigor in the field.,official,,
+CO_321:0001077,Boot_dtoInit_day,"DTIB_days, DTIB",Booting time,Boot,"Booting, B",day,"Booting time is just prior to spike emergence, when the flag leaf sheath encloses the growing spike. ",official,30.0,150.0
+CO_321:0001235,Hd_dto_day,"DTH_days, DTH, HEAD, DAYSHD",Heading time,Hd,"Head, Heading, H",day,Heading time extends from the time of emergence of the tip of the spike from the flag leaf sheath to when the spike has completely emerged but has not yet started to flower.,official,30.0,190.0
+CO_321:0001048,Ant_dto_day,"DTA_days, DAYSAN, ANT",Anthesis time,Ant,"Flowering, Flw, A",day,Anthesis or flowering time is the period during which a flower is fully open and functional. pollination and fertilization occur during this period.,official,30.0,150.0
+CO_321:0001290,Mat_dto_day,"DTM_days, DTM, DAYSMT, MAT",Maturity time,Mat,"Mt, M, Maturity",day,Maturity time starts at hard dough stage (ds87) often called physiological maturity.,official,40.0,240.0
+CO_321:0001603,TTIB_Calc_Cday,,Booting initiation thermal time,TTIB,,°C day,Thermal Time from emergence  to Initiation of Booting (GS41).,official,0.0,2000.0
+CO_321:0001605,TTH_Calc_Cday,,Heading thermal time,TTH,,°C day,Thermal Time  from emergence to Heading (GS55).,official,0.0,2000.0
+CO_321:0001606,TTA_Calc_Cday,,Anthesis thermal time,TTA,,°C day,Thermal Time from emergence  to Anthesis (GS65).,official,0.0,3000.0
+CO_321:0001607,TTM_calc_Cday,,Physiological maturity thermal time,TTM,,°C day,Thermal Time  from emergence to Physiological Maturity (GS87).,official,0.0,3000.0
+CO_321:0001246,ISBM_Calc_gm2,ISBM_g_m2,In-season aboveground biomass,ISBM,,g/m2,All above-ground biomass at any developmental stage and/or at regular intervals from the emergence to physiological maturity.,official,500.0,3000.0
+CO_321:0001411,TN_Ct_Tllrm2,TNO_tll_m2,Tiller number,TN,"TllNo, TNO",tiller/m2,"Number of total tillers (fertile and infertile) per unit area, sample or plant.",official,0.0,10000.0
+CO_321:0001596,RSpkGP_Calc_pct,,Rapid spike growth period,RSpkGP,RSGP,%,Rapid spike growth period.,official,1.0,20.0
+CO_321:0001105,CropGrwRate_Calc_gm2day,CROPGRWRATE_g_m2_day,Crop growth rate,CropGrwRate,CGR,g/m2/day,It is the rate of dry matter production per unit area.,official,,
+CO_321:0001612,SpkPI_Calc_Idx,,Spike partitioning index ,SpkPI,SPI,index,Spike partitioning index. ,official,10.0,50.0
+CO_321:0001094,CT_M_C,CT_C,Canopy temperature,CT,"CanoTemp, CanTemp",°C,The surface temperature of the canopy is related to the amount of transpiration resulting in evaporative cooling.,official,0.0,55.0
+CO_321:0001081,NDVI_M_Idx,NDVI_index,Canopy normalized difference vegetation index,NDVI,,index,Normalized difference vegetation index is used to measure vegetative greenness and canopy photosynthetic size.,official,-1.0,1.0
+CO_321:0001041,AgrScr_E_0to9,AGRSCR_0_9,Agronomic score,AgrScr,AGRSCR,0-9 scoring scale,Rating of overall agronomic attributes and health of plants.,official,,
+CO_321:0001039,BM_M_kgPlot,BM_kg_plot,Aboveground biomass at maturity,BM,"AGBM, BMMat, BIOMAS",kg/plot,All above-ground biomass at maturity.,official,1.0,6.0
+CO_321:0001052,AwnLng_M_cm,AWNLNG _cm,Awn length,AwnLng,,cm,Awn length.,official,1.0,25.0
+CO_321:0001053,BLBInc_E_0to9pcttext,BLB_0_9text__INC,Bacterial leaf blight incidence,BLBInc, PsyriInc,0-9 percentage scale + text,"Wheat bacterial leaf blight incidence in the plants caused by the agent pseudomonas syringae pv. syringae. symptoms: small (less than 0.04 inches) water-soaked lesions expand and eventually coalesce. Initial lesions become necrotic and turn from gray-green to tan-white. Entire leaves may become necrotic, but heads and glumes are typically symptomless.",official,,
+CO_321:0001040,AcdTol_E_1to5,ACDTOL _1_5,Acid soil tolerance,AcdTol,,1-5 TOL scale,Plant tolerance to acid soil.,official,,
+CO_321:0001042,AgrScr_E_1to9,AGRSCR_1_9,Agronomic score,AgrScr,,1-9 scoring scale,Rating of overall agronomic attributes and health of plants.,official,,
+CO_321:0001054,BLBSev_E_00to99,BLB_00_99__SEV,Bacterial leaf blight severity,BLBSev, PsyriSev,Double digit (00-99),"Wheat bacterial leaf blight severity in the plants caused by the agent pseudomonas syringae pv. syringae. symptoms: small (less than 0.04 inches) water-soaked lesions expand and eventually coalesce. initial lesions become necrotic and turn from gray-green to tan-white. Entire leaves may become necrotic, but heads and glumes are typically symptomless.",official,,
+CO_321:0001055,BLSSev_E_00to99,BLS_00_99,Bacterial leaf streak severity,BLSSev, PsyriSev,Double digit (00-99),"Bacterial leaf streak severity in the plants caused by the agent Xanthomonas translucens. The disease, called black chaff when on the glumes.",official,,
+CO_321:0001056,HgramInc_E_0to9pcttext,HGRAM_0_9text,Barley Helminthosporium leaf stripe incidence,HgramInc,,0-9 percentage scale + text,Barley helminthosporium leaf stripe incidence in the plants caused by the agent Drechslera graminea (helminthosporium gramineum).,official,,
+CO_321:0001057,HgramInc_E_pct,HGRAM_pct,Barley Helminthosporium leaf stripe incidence,HgramInc,,%,Barley helminthosporium leaf stripe incidence in the plants caused by the agent Drechslera graminea (helminthosporium gramineum).,official,0.0,100.0
+CO_321:0001058,HgramInc_E_0to9pct,HGRAM_0_9,Barley Helminthosporium leaf stripe incidence,HgramInc,,0-9 percentage scale,Barley helminthosporium leaf stripe incidence in the plants caused by the agent Drechslera graminea (helminthosporium gramineum).,official,,
+CO_321:0001059,PhordCI_Calc_pct,PHORD_pct__CI,Barley leaf rust coefficient of infection,PhordCI,,%,Barley leaf rust incidence/severity/response in the plants caused by the agent Puccinia hordei. ,official,0.0,100.0
+CO_321:0001060,PhordInc_E_1to9,PHORD_1_9,Barley leaf rust incidence,PhordInc,,1-9 incidence scale,Barley leaf rust incidence in the plants caused by the agent Puccinia hordei. ,official,,
+CO_321:0001061,PhordSev_E_pct,PHORD_pct__SEV,Barley leaf rust severity,PhordSev,,%,Barley leaf rust severity in the plants caused by the agent Puccinia hordei. ,official,0.0,100.0
+CO_321:0001062,PhordSev_E_0to12,PHORD_0_12__SEV,Barley leaf rust severity,PhordSev,,0-12 Modified Cobb Scale,Barley leaf rust severity in the plants caused by the agent Puccinia hordei. ,official,,
+CO_321:0001063,RsecaInc_E_0to9pcttext,RSECA_0_9text,Barley scald incidence,RsecaInc,RSECA,0-9 percentage scale + text,Barley scald incidence in the plants caused by the agent Rhynchosporium secalis. ,official,,
+CO_321:0001064,RSecaSev_E_00to99text,RSECA_00_99text__SEV,Barley scald severity,RSecaSev,RSECA,Double digit (00-99) + text,Barley scald severity in the plants caused by the agent Rhynchosporium secalis. ,official,,
+CO_321:0001065,RsecaSev_E_00to99,RSECA_00_99__SEV,Barley scald severity,RsecaSev,RSECA,Double digit (00-99),Barley scald severity in the plants caused by the agent Rhynchosporium secalis. ,official,,
+CO_321:0001051,ArmyWDmg_E_pct,ARMDMG_pct,Armyworm damage,ArmyWDmg,ARMDMG,%,The plant damage caused by armyworm.,official,0.0,100.0
+CO_321:0001047,Ant_date_ymd,"ANTD_yyyymmdd, ANTD, ANTDATE",Anthesis time,Ant,"Flowering, Flw, A",yyyymmdd,Anthesis or flowering time is the period during which a flower is fully open and functional. pollination and fertilization occur during this period.,official,,
+CO_321:0001046,AntDmg_E_pct,ANTDMG_pct,Ant damage,AntDmg,,%,The plant damage caused by ants.,official,0.0,100.0
+CO_321:0001044,AtritResp_E_1to8,ATRIT _1_8__RESP,Alternaria leaf blight plant response,AtritResp,,1-8 generic disease field response scale,Alternaria leaf blight response in the plants caused by the agent Alternaria triticina.,official,,
+CO_321:0001043,AgrScr_E_1to5,AGRSCR_1_5,Agronomic score,AgrScr,,1-5 scoring scale,Rating of overall agronomic attributes and health of plants.,official,,
+CO_321:0001035,BM_Calc_kgha,BM_kg_ha,Aboveground biomass at maturity,BM,"AGBM, BMMat, BIOMAS",kg/ha,All above-ground biomass at maturity.,official,0.0,50000.0
+CO_321:0001036,BM_Calc_tha,BM_t_ha,Aboveground biomass at maturity,BM,"AGBM, BMMat, BIOMAS",t/ha,All above-ground biomass at maturity.,official,0.0,50.0
+CO_321:0001037,BM_M_gPlnt,BM_g_pl,Aboveground biomass at maturity,BM,"AGBM, BMMat, BIOMAS",g/plant,All above-ground biomass at maturity.,official,0.0,10.0
+CO_321:0001038,BM_M_gPlot,BM_g_plot,Aboveground biomass at maturity,BM,"AGBM, BMMat, BIOMAS",g/plot,All above-ground biomass at maturity.,official,1000.0,10000.0
+CO_321:0001045,AlTol_E_1to9,ALUTOL_1_9,Aluminum tolerance,AlTol,ALUTOL,1-9 TOL scale,Plant tolerance to aluminum.,official,,
+CO_321:0001049,AphDmg_E_pct,APHDMG_pct,Aphid damage,AphDmg,,%,The plant damage caused by various species of aphids.,official,0.0,100.0
+CO_321:0001050,AphDmg_E_1to5,APHDMG_1_5,Aphid damage,AphDmg,,1-5 DMG scale,The plant damage caused by various species of aphids.,official,,
+CO_321:0001066,BSMV_E_0to9pct,BSMV_0_9,Barley stripe mosaic incidence,BSMV,,0-9 percentage scale,Barley stripe mosaic incidence in the plants caused by barley stripe mosaic virus.,official,,
+CO_321:0001067,BYDInc_E_0to9pcttext,BYD_0_9text,Barley yellow dwarf incidence,BYDInc,BYDV,0-9 percentage scale + text,Wheat yellow dwarf incidence in the plants caused by the agent wheat yellow dwarf virus.,official,,
+CO_321:0001068,BYDInc_E_pct,BYD_pct,Barley yellow dwarf incidence,BYDInc,BYDV,%,Wheat yellow dwarf incidence in the plants caused by the agent wheat yellow dwarf virus.,official,0.0,100.0
+CO_321:0001069,BYDInc_E_0to9pct,BYD_0_9,Barley yellow dwarf incidence,BYDInc,BYDV,0-9 percentage scale,Wheat yellow dwarf incidence in the plants caused by the agent wheat yellow dwarf virus.,official,,
+CO_321:0001070,BirdDmg_E_pct,BIRDDMG_pct,Bird damage,BirdDmg,"DmgBird, BIRDDMG, DMGBIR",%,The plant damage caused by birds.,official,0.0,100.0
+CO_321:0001071,BirdDmg_E_1to5,"BIRDDMG_1_5, BirdDmg_N_T_S_M_V",Bird damage,BirdDmg,"DmgBird, BIRDDMG, DMGBIR",1-5 DMG scale,The plant damage caused by birds.,official,,
+CO_321:0001072,BlkPtInc_E_pct,BLKPT_pct,Black point incidence,BlkPtInc,,%,"Black point incidence in the plants caused by the fungal species such as Helminthosporium sativum (Cochliobolus sativus), Alternaria alternata and fusarium spp. also black point symptoms are associated to physiological disorders.",official,0.0,100.0
+CO_321:0001073,BlkPtInc_E_0to9pct,BLKPT_0_9,Black point incidence,BlkPtInc,,0-9 percentage scale,"Black point incidence in the plants caused by the fungal species such as Helminthosporium sativum (Cochliobolus sativus), Alternaria alternata and fusarium spp. also black point symptoms are associated to physiological disorders.",official,,
+CO_321:0001074,Boot_date_ymd,"BOOTD_yyyymmdd, BOOTD, BOOTDATE",Booting time,Boot,"Booting, B",yyyymmdd,"Booting time is just prior to spike emergence, when the flag leaf sheath encloses the growing spike. ",official,,
+CO_321:0001075,Boot_dateInit_ymd,"IBD_yyyymmdd, IBD",Booting time,Boot,"Booting, B",yyyymmdd,"Booting time is just prior to spike emergence, when the flag leaf sheath encloses the growing spike. ",official,,
+CO_321:0001076,Boot_dto_day,"DTB_days, DTB, BOOT",Booting time,Boot,"Booting, B",day,"Booting time is just prior to spike emergence, when the flag leaf sheath encloses the growing spike. ",official,,
+CO_321:0001078,BTol_E_1to9,BORONTOL_1_9,Boron tolerance,BTol,BORONTOL,1-9 TOL scale,Plant tolerance to high levels of soil boron.,official,,
+CO_321:0001079,CrmStr_E_1to5,CRMSTR_1_5,Bread crumb structure,CrmStr,,1-5 scoring scale,The cellular structure of wheat bread crumb.,official,,
+CO_321:0001080,LofVol_M_ml,LOFVOL_ml,Bread loaf volume,LofVol,,ml,Baking quality of flour describing bread loaf volume.,official,300.0,1025.0
+CO_321:0001082,NPQI_M_Idx,NPQI_index,Canopy normalized pheophytinization index,NPQI,,index,Normalized pheophytinization index can be used to detect chlorophyll degradation.,official,,
+CO_321:0001083,NWI1_M_Idx,NWI1_index,Canopy normalized water index 1,NWI1,,index,"Normalized water index 1 is used track changes in rwc, leaf water potential, stomatal conductance, and foliage minus air temperature differences when plant water stress is well developed (rwc<0.85).",official,,
+CO_321:0001084,NWI2_M_Idx,NWI2_index,Canopy normalized water index 2,NWI2,,index,"Normalized water index 2 is used track changes in rwc, leaf water potential, stomatal conductance, and foliage minus air temperature differences when plant water stress is well developed (rwc<0.85).",official,,
+CO_321:0001085,NWI3_M_Idx,NWI3_index,Canopy normalized water index 3,NWI3,,index,"Normalized water index 3 is used track changes in rwc, leaf water potential, stomatal conductance, and foliage minus air temperature differences when plant water stress is well developed (rwc<0.85).",official,,
+CO_321:0001086,NWI4_M_Idx,NWI4_index,Canopy normalized water index 4,NWI4,,index,"Normalized water index 4 is used track changes in rwc, leaf water potential, stomatal conductance, and foliage minus air temperature differences when plant water stress is well developed (rwc<0.85).",official,,
+CO_321:0001087,PRI_M_Idx,PRI_index,Canopy photochemical reflectance index,PRI,,index,"Photochemical reflectance index is correlated with the de-epoxidation stage of the xanthophylls cycle, with zeaxanthin, and with radiation-use efficiency (filella et al., 1996). higher pri values indicate greater efficiency.",official,,
+CO_321:0001088,RARSc_M_Idx,RARSc_index,Canopy ratio analysis of reflectance spectra  carotenoid,RARSc,,index,Rarsc is an estimation of carotenoid content.,official,,
+CO_321:0001089,RARSa_M_Idx,RARSa_index,Canopy ratio analysis of reflectance spectra chlorophyll  a,RARSa,,index,Rarsa is an estimation of chlorophyll a content.,official,,
+CO_321:0001090,RARSb_M_Idx,RARSb_index,Canopy ratio analysis of reflectance spectra chlorophyll  b,RARSb,,index,Rarsb is an estimation of chlorophyll b content.,official,,
+CO_321:0001091,SR_M_Idx,SR_index,Canopy simple ratio,SR,,index,"A vegetation index related with canopy structure, light absorption and photosynthetic capacity.",official,,
+CO_321:0001092,StayGreen_E_1to5,STAYGREEN_1_5,Canopy stay green,StayGreen,STAGRE,1-5 scoring scale,"Ability of the plant to remain/maintain green leaves, stems and spikes at the time of senescing.",official,,
+CO_321:0001093,SIPI_M_Idx,SIPI_index,Canopy structural independent pigment index,SIPI,,index,"Structural independent pigment index uses wavelengths showing the best semi-empirical estimation of the carotenoid chlorophyll a ratio (car:chla ratio), and its formulation minimizes the disrupting effects of leaf surface and mesophyll structure.",official,,
+CO_321:0001095,CTD_Calc_C,CTD_C,Canopy temperature depression,CTD,,°C,Difference between ambient temperature and canopy temperature.,official,-15.0,15.0
+CO_321:0001096,WI_M_Idx,WI_index,Canopy water index,WI,,index,"Water index use reflectance at 970 nm as a wavelength sensitive to water content, while reflectance at 900 nm is taken as a reference which is similarly affected by canopy and leaf structures but with null absorption by water.",official,,
+CO_321:0001097,ColdTol_E_pct,COLDTOL_pct,Cold tolerance,ColdTol,"COLDTOL, CLDTOL",%,Plant tolerance to lower temperatures than the optimum.,official,0.0,100.0
+CO_321:0001098,ColdTol_E_1to5,COLDTOL_1_5,Cold tolerance,ColdTol,"COLDTOL, CLDTOL",1-5 TOL scale,Plant tolerance to lower temperatures than the optimum.,official,,
+CO_321:0001099,ColeopLng_M_cm,COLEOPLNG _cm,Coleoptile length,ColeopLng,,cm,Length of coleoptile (a protective sheath that surrounds the shoot tip and the embryonic leaves of the young shoot of grasses).,official,0.0,20.0
+CO_321:0001100,TilSpSpkInc_E_pct,TILSP_pct,Common bunt spike incidence,TilSpSpkInc,"CBSpkInc, TILSP, CB",%,"Common bunt (stinking bunt, covered smut, hill bunt, complete bunt, low bunt, high bunt) incidence in the plants caused by the agent Tilletia species.",official,0.0,100.0
+CO_321:0001101,RootRot_E_0to9pct,ROOTROT_0_9,Common root rot incidence,RootRot,,0-9 percentage scale,"Common root rot incidence in the plants caused by the agents Cochliobolus sativus, fusarium spp., and Pythium species.",official,,
+CO_321:0001102,CookSdF_M_Idx,COKSDF_index,Cookie spread factor,CookSdF,COKSDF,index,The ratio between average height and width of cookies.,official,5.0,12.0
+CO_321:0001103,GrndCov_GS15_pct,GRNDCOV_pct__GS15,Crop ground cover,GrndCov,"GRNDCOV, GC",%,"Crop ground cover, or the percentage of soil surface covered by plant foliage.",official,0.0,20.0
+CO_321:0001104,GrndCov_M_pct,GRNDCOV_pct,Crop ground cover,GrndCov,"GRNDCOV, GC",%,"Crop ground cover, or the percentage of soil surface covered by plant foliage.",official,0.0,100.0
+CO_321:0001106,HavenDmg_E_pct,HAVEN_pct,Cyst nematode damage,HavenDmg,"CCNDmg, HAVEN, CCN",%,"The wheat cyst nematode damage caused by cyst nematode, Heterodera avenae.",official,0.0,100.0
+CO_321:0001107,DRidge_date_ymd,"DRD_yyyymmdd, DRD",Double ridge time,DRidge,DR,yyyymmdd,Double ridge time is just when apex changes from the vegetative to the reproductive stage.,official,,
+CO_321:0001108,DRidge_dto_day,"DTDR_days, DR, DTDR",Double ridge time,DRidge,DR,day,Double ridge time is just when apex changes from the vegetative to the reproductive stage.,official,,
+CO_321:0001109,AlvIe_Calc_pct,ALVIe_pct,Dough alveograph extensibility index,AlvIe,,%,It is the extensibility index of the dough. (p200/p)*100; p200: pressure (p) at 4 cm (l= 40mm) of the curve.,official,,
+CO_321:0001110,AlvPG_Calc_Idx,ALVPG_index,Dough alveograph P/G,AlvPG,,index,It is the p/g ratio.,official,1.5,14.0
+CO_321:0001111,AlvPL_Calc_Idx,ALVPL_index,Dough alveograph P/L,AlvPL,,index,Ratio of tenacity (p; maximum pressure required for the deformation of the sample) and extensibility (l; length of the curve) of dough.,official,0.1,6.0
+CO_321:0001112,AlvG_M_mm,AVLG_mm,Dough alveograph value G,AlvG,,mm,G stands for the square root of the volume of air in the bubble that was possible before the bubble burst. shows how flexible the dough was during the test.,official,,
+CO_321:0001113,AlvL_M_mm,ALVL_mm,Dough alveograph value L,AlvL,,mm,L value is the extensibility of the dough before the bubble breaks. it is indicated by the length of the curve.,official,,
+CO_321:0001114,AlvP_M_mm,ALVP_mm,Dough alveograph value P,AlvP,,mm,P value is the force required to blow the bubble of dough. it is indicated by the maximum height of the curve. ,official,,
+CO_321:0001115,AlvW_M_joules,ALVW_joules,Dough alveograph value W,AlvW,,joules,Dough strength by alveograph. W value is the area under the curve. it is a combination of dough strength (p value) and extensibility (l value). ,official,25.0,350.0
+CO_321:0001116,MixTim_M_min,MIXTIM_min,Dough Mixograph mixing time,MixTim,,min,Time required for the dough development from beginning of mixing flour and water to the dough reaches maximum consistency (peak).,official,0.4,8.0
+CO_321:0001117,MixTq_M_pctmin,MIXTQ_pct_min,Dough mixograph torque,MixTq,,%/min,It is the torque measured during the mixograph test.,official,,
+CO_321:0001118,MixTyp_E_1to6,MIXTYP_1_6,Dough mixograph type,MixTyp,,1-6 MIXTYP scale,Mixograph type (mixograph curve) is used for determining the strength of dough.,official,,
+CO_321:0001119,DroughtTol_E_pct,DROUGHTTOL_pct,Drought tolerance,DroughtTol,,%,Plant tolerance to drought conditions.,official,0.0,100.0
+CO_321:0001120,DroughtTol_E_1to5,DROUGHTTOL_1_5,Drought tolerance,DroughtTol,,1-5 TOL scale,Plant tolerance to drought conditions.,official,,
+CO_321:0001121,TcontInc_E_pct,TCONT_pct,Dwarf bunt incidence,TcontInc,TCONT,%,Dwarf bunt incidence in the plants caused by the agent Tilletia controversa.,official,0.0,100.0
+CO_321:0001122,Emer_date_ymd,"EMERD_yyyymmdd, EMERD, EDATE, EMERDATE, Emergence date",Emergence time,Emer,"Emer, Em, E",yyyymmdd,Emergence time is when the first leaf appears above the soil surface.,official,,
+CO_321:0001123,Emer_dto_day,"DTE_days, DTE, Days to emergence",Emergence time,Emer,"Emer, Em, E",day,Emergence time is when the first leaf appears above the soil surface.,official,,
+CO_321:0001124,PherpResp_E_1to8,PHPRP_1_8__RESP,Eyespot plant response,PherpResp,PHPRP,1-8 generic disease field response scale,Eye spot response in the plants caused by the fungal species Tapesia yallundae (Pseudocercosporella herpotrichoide w-type) and Tapesia acuformis (Pseudocercosporella herpotrichoides r-type). Symptoms: the eye shape elliptical lesions forms on lower base of stem and lower leaf sheath. The eyespots are straw yellow in color from the middle and are surrounded by the greenish brown to dark brown rings.,official,,
+CO_321:0001125,FND_date_ymd,"FNDD_yyyymmdd, FNDD",First node detectable time,FND,,yyyymmdd,"First node detectable time is when the stem starts the elongation or jointing period, first node becomes visible as it appears above the soil surface.",official,,
+CO_321:0001126,FND_dto_day,"DTFND_days, DTFND, FND",First node detectable time,FND,,day,"First node detectable time is when the stem starts the elongation or jointing period, first node becomes visible as it appears above the soil surface.",official,,
+CO_321:0001127,FLeafA_M_cm2,FLEAFA _cm2,Flag leaf area,FLeafA,,cm2,Area of the flag leaf lamina.,official,0.0,60.0
+CO_321:0001128,FLeafSen_E_pct,FLEAFSEN_pct,Flag leaf senescence,FLeafSen,FlagSen,%,Flag leaf senescence.,official,0.0,100.0
+CO_321:0001129,UagroResp_E_1to8,UAGRO_1_8__RESP,Flag smut plant response,UagroResp,UAGRO,1-8 generic disease field response scale,Flag smut disease response in the plants caused by the agent Urocystic agropyri causing flag smut disease.,official,,
+CO_321:0001130,FlrCol_M_avalue,FLRCOL_a_value,Flour color,FlrCol,,a value,Flour color.,official,,
+CO_321:0001131,FlrCol_M_bvalue,FLRCOL_b_value,Flour color,FlrCol,,b value,Flour color.,official,,
+CO_321:0001132,FlrCol_M_Lvalue,FLRCOL_L_value,Flour color,FlrCol,,L value,Flour color.,official,,
+CO_321:0001133,FlrFN_M_s,FLRFN _s,Flour falling number,FlrFN,,s,The falling number is defined as the time in seconds required stirring and allowing stirrer to fall a measured distance through a hot aqueous flour or meal gel undergoing liquefaction due to a-amylase activity.,official,,
+CO_321:0001134,FLRGluCon_M_pct,GLUCON_pct,Flour gluten content,FLRGluCon,,%,Content of wet gluten in flour.,official,2.0,8.0
+CO_321:0001135,GluTyp_E_1to5,GLUTYP_1_5,Flour gluten type,GluTyp,,1-5 GLUTYP scale,Gluten type whether weak-tenacious/tenacious/weak/medium strong/strong.,official,,
+CO_321:0001136,FlrProt_Kjl_pct,FLRPROT_pct,Flour protein content,FlrProt,FlrPro,%,Total protein content (corrected to 12.5% moisture basis) in refined flour.,official,7.0,17.0
+CO_321:0001137,FlrProt_NIRS_pct,FLRPROT_pct,Flour protein content,FlrProt,FlrPro,%,Total protein content (corrected to 12.5% moisture basis) in refined flour.,official,5.0,20.0
+CO_321:0001138,FlrSDS_M_ml,FLRSDS_ml,Flour SDS sedimentation,FlrSDS,,ml,"Testing of refined flour quality by sds-sedimentation, a test estimating gluten-protein overall quality.",official,2.0,25.0
+CO_321:0001139,SedIdx_M_mlpct,SEDINDX_ml_pct,Flour SDS sedimentation index,SedIdx,SEDINDX,ml/%,Is the result of dividing sedimentation volume by flour protein content.,official,,
+CO_321:0001140,FlrYellCls_M_1to3,FLRYELLCLS_1_3,Flour yellowness,FlrYellCls,,1-3 FLRYELLCLS scale,Flour yellowness.,official,,
+CO_321:0001141,FlrYld_M_pct,"FLRYLD, FLRYD",Flour yield,FlrYld,FlrYd,%,Proportion of flour recovered during milling.,official,60.0,77.0
+CO_321:0001142,FolDis_E_1to5,"FOLDIS_1_5, FoliarDis_N_T_S_M_V",Foliar disease development,FolDis,,1-5 DMG scale,The plant damage caused by foliar diseases.,official,,
+CO_321:0001143,FrostDmg_E_0to9,FROSTDMGP_0_9,Frost damage,FrostDmg,DMPFRO,0-9 DAMAGE scale,Plant damage caused by frost.,official,,
+CO_321:0001144,FrostDmg_E_0to9text,FROSTDMGP_0_9text,Frost damage,FrostDmg,DMPFRO,0-9 DAMAGE scale + text,Plant damage caused by frost.,official,,
+CO_321:0001145,FrostDmg_E_pct,FROSTDMGP_pct,Frost damage,FrostDmg,DMPFRO,%,Plant damage caused by frost.,official,0.0,100.0
+CO_321:0001146,FrostDmg_E_1to5,"FROSTDMG_1_5__SPK, FrostDmg_N_T_S_M_V",Frost damage,FrostDmg,DMPFRO,1-5 DMG scale,Plant damage caused by frost.,official,,
+CO_321:0001147,FrostDmg_E_1to9,FROSTDMGP_1_9,Frost damage,FrostDmg,DMPFRO,1-9 incidence scale,Plant damage caused by frost.,official,,
+CO_321:0001148,FgramInc_E_0to9pcttext,FGRAM_0_9text__INC,Fusarium graminearum incidence,FgramInc,FGRAML,0-9 percentage scale + text,Fusarium graminearum incidence in the plants.,official,,
+CO_321:0001149,FgramInc_E_pct,FGRAM_pct__INC,Fusarium graminearum incidence,FgramInc,FGRAML,%,Fusarium graminearum incidence in the plants.,official,0.0,100.0
+CO_321:0001150,FgramResp_E_0to5,FGRAM_0_5__RESP,Fusarium graminearum plant response,FgramResp,FGRAML,0-5 FHB field response scale,Fusarium graminearum response in the plants.,official,,
+CO_321:0001151,FgramSev_E_00to99text,FGRAM_00_99text__SEV,Fusarium graminearum severity,FgramSev,FGRAML,Double digit (00-99) + text,Fusarium graminearum severity in the plants.,official,,
+CO_321:0001152,FgramSev_E_00to99,FGRAM_00_99__SEV,Fusarium graminearum severity,FgramSev,FGRAML,Double digit (00-99),Fusarium graminearum severity in the plants.,official,,
+CO_321:0001153,FHBAUDPC_Calc_pct,FHB_pct__AUDPC,Fusarium head blight AUDPC,FHBAUDPC,,%,Fusarium head blight (scab) incidence/severity/response in the plants caused by the agent fusarium spp.,official,0.0,100.0
+CO_321:0001154,FHBDON_M_ppm,FHB_ppm__DON,Fusarium head blight DON content,FHBDON,,ppm,Content of deoxynivalenol or don (vomitoxin) that is often associated with fhb (fusarium spp.) infected grains.,official,0.0,500.0
+CO_321:0001155,FHBGInc_E_pct,FHB_pct__GRNINC,Fusarium head blight grain incidence,FHBGInc,,%,Fusarium head blight (scab) incidence in the plants caused by the agent fusarium spp.,official,0.0,100.0
+CO_321:0001156,FHBSpkInc_E_0to9pcttext,FHB_0_9text__SPKINC,Fusarium head blight spike incidence,FHBSpkInc,,0-9 percentage scale + text,Fusarium head blight (scab) incidence in spikes caused by the agent fusarium spp.,official,,
+CO_321:0001157,FHBSpkInc_E_pct,FHB_pct__SPKINC,Fusarium head blight spike incidence,FHBSpkInc,,%,Fusarium head blight (scab) incidence in spikes caused by the agent fusarium spp.,official,0.0,100.0
+CO_321:0001158,FHBSpkResp_E_0to5,FHB_0_5__SPKRESP,Fusarium head blight spike response,FHBSpkResp,,0-5 FHB field response scale,Fusarium head blight (scab) spike response caused by the agent fusarium spp.,official,,
+CO_321:0001159,FHBSpkResp_E_1to8,FHB_1_8__SPKRESP,Fusarium head blight spike response,FHBSpkResp,,1-8 generic disease field response scale,Fusarium head blight (scab) spike response caused by the agent fusarium spp.,official,,
+CO_321:0001160,FHBSpkWt_Calc_pct,FHB_pct__SPKW,Fusarium head blight spike weight,FHBSpkWt,,%,Fusarium head blight (scab) incidence/severity/response in the plants caused by the agent fusarium spp.,official,0.0,100.0
+CO_321:0001161,FHBSplInc_Calc_Idx,FHB_index__SPLINC,Fusarium head blight spikelet incidence,FHBSplInc,,index,Fusarium head blight (scab) spikelets incidence caused by the agent fusarium spp.,official,0.0,100.0
+CO_321:0001162,FHBSplInc_Ct_SplInfect,FHB_num__SPLINC,Fusarium head blight spikelet incidence,FHBSplInc,,spikelet,Fusarium head blight (scab) spikelets incidence caused by the agent fusarium spp.,official,0.0,100.0
+CO_321:0001163,FnivLBInc_E_0to9pcttext,FNIVLB_0_9text__INC,Fusarium leaf blotch incidence,FnivLBInc,,0-9 percentage scale + text,"Fusarium leaf blotch (pink snow mold, fusarium patch) incidence in the plants caused by the agent Calonectria nivalis (fusarium nivale).",official,,
+CO_321:0001164,FnivLBInc_E_pct,FNIVLB_pct__INC,Fusarium leaf blotch incidence,FnivLBInc,,%,"Fusarium leaf blotch (pink snow mold, fusarium patch) incidence in the plants caused by the agent Calonectria nivalis (fusarium nivale).",official,0.0,100.0
+CO_321:0001165,FnivLBSev_E_00to99text,FNIVLB_00_99text__SEV,Fusarium leaf blotch severity,FnivLBSev,,Double digit (00-99) + text,"Fusarium leaf blotch (pink snow mold, fusarium patch) severity in the plants caused by the agent Calonectria nivalis (fusarium nivale).",official,,
+CO_321:0001166,FnivLBSev_E_00to99,FNIVLB_00_99__SEV,Fusarium leaf blotch severity,FnivLBSev,,Double digit (00-99),"Fusarium leaf blotch (pink snow mold, fusarium patch) severity in the plants caused by the agent Calonectria nivalis (fusarium nivale).",official,,
+CO_321:0001167,FoxiWilt_E_pct,FOXYWIL _pct,Fusarium wilt incidence,FoxiWilt,FOXYWIL ,%,Fusarium wilt incidence in the plants caused by the agent fusarium oxysporum. ,official,0.0,100.0
+CO_321:0001168,GlmCol_E_1to3,GLMCOL_1_3,Glume color,GlmCol,,1-3 GLMCOL scale,Color observation on the outer glume at maturity.,official,,
+CO_321:0001169,GlmGlau_E_0to9,GLMGLAU_0_9,Glume glaucousness,GlmGlau,,0-9 density scale,Glaucousness in glume.,official,,
+CO_321:0001170,GlmLng_M_mm,GLMLNG_mm,Glume length,GlmLng,,mm,Length of glume.,official,11.0,100.0
+CO_321:0001171,GlmPubDen_E_0to9,GLMPUBDEN _0_9,Glume pubescence density,GlmPubDen,,0-9 density scale,Glume hairiness density on outer side of sterile glume.,official,,
+CO_321:0001172,GlmPubLng_M_um,GLMPUBLNG_um,Glume pubescence length,GlmPubLng,,µm,Glume pubescence length on outer side of sterile glume.,official,,
+CO_321:0001173,GlmWid_M_mm,GLMWID_mm,Glume width,GlmWid,,mm,Width of glume.,official,1.0,10.0
+CO_321:0001174,GluA1_M_text,GLUA1_text,Glutenin Glu-A1 composition,GluA1,"Glu-A1, HMW-Glu A1",text,High molecular weight glutenin subunits of glu-a1. ,official,,
+CO_321:0001175,GluA3_M_text,GLUA3_text,Glutenin Glu-A3 composition,GluA3,"Glu-A3, LMW-Glu A3",text,Low molecular weight glutenin subunits of glu-a3. ,official,,
+CO_321:0001176,GluB1_M_text,GLUB1_text,Glutenin Glu-B1 composition,GluB1,"Glu-B1, HMW-Glu B1",text,High molecular weight glutenin subunits of glu-b1. ,official,,
+CO_321:0001177,GluB3_M_text,GLUB3_text,Glutenin Glu-B3 composition,GluB3,"Glu-B3, LMW-Glu B3",text,Low molecular weight glutenin subunits of glu-b3. ,official,,
+CO_321:0001178,GluD1_M_text,GLUD1_text,Glutenin Glu-D1 composition,GluD1,"Glu-D1, HMW-Glu D1",text,High molecular weight glutenin subunits of glu-d1. ,official,,
+CO_321:0001179,GluD3_M_text,GLUD3_text,Glutenin Glu-D3 composition,GluD3,"Glu-D3, LMW-Glu D3",text,Low molecular weight glutenin subunits of glu-d3. ,official,,
+CO_321:0001180,GApp_E_0to9,GRNAPP_0_9,Grain appearance,GApp,GRNAPP,0-9 GRNAPP scale,Appearance of a single grain.,official,,
+CO_321:0001181,GApp_E_0to9text,GRNAPP_0_9text,Grain appearance,GApp,GRNAPP,0-9 GRNAPP scale + text,Appearance of a single grain.,official,,
+CO_321:0001182,GCID_M_delta13C,GRAINCID_delta,Grain carbon isotope discrimination,GCID,GrainCID,delta 13C,Grain carbon isotope discrimination at maturity from drought trials provides genotypic effects most likely to be related to transpiration rate or an integrative measurement of stomatal conductance.,official,,
+CO_321:0001183,GCol_E_1to3,GRNCOL_1_3,Grain color,GCol,GRNCOL,1-3 GRNCOL scale,Grain color.,official,,
+CO_321:0001184,GCol_M_avalue,GRNCOL_a_value,Grain color,GCol,GRNCOL,a value,Grain color.,official,,
+CO_321:0001185,GCol_M_bvalue,GRNCOL_b_value,Grain color,GCol,GRNCOL,b value,Grain color.,official,,
+CO_321:0001186,GCol_M_Lvalue,GRNCOL_L_value,Grain color,GCol,GRNCOL,L value,Grain color.,official,,
+CO_321:0001187,GCol_E_1to5,GRNCOL_1_5,Grain color,GCol,GRNCOL,1-5 GRNCOL scale,Grain color.,official,,
+CO_321:0001188,UseTyp_M_1to9+text,USETYP_1_9_text,Grain end use type,UseTyp,,1-9 USETYP scale,Bread wheat end use quality is classified according several quality attributes.,official,,
+CO_321:0001189,GFP_calc_day,GFILLPERIOD_days,Grain filling period,GFP,"GFillPeriod, GfillP,",day,Time period between anthesis (ds65) and maturity (ds87).,official,10.0,60.0
+CO_321:0001191,Germ_M_pct,"GERM_pct, GermiTest_pct",Grain germination,Germ,"Germi, GERM, GERMPCT, GERM%, GERMI, Germination percentage",%,Proportion of seed that germinate under proper condition.,official,0.0,100.0
+CO_321:0001192,GHrd_M_1to3,HRDCLS_1_3,Grain hardness,GHrd,"HRDCLS, GRNHRD",1-3 HRDCLS scale,Grain hardness is used as a grading factor to determine the type of wheat. It is a key determinant for classification of wheat and end product quality.,official,,
+CO_321:0001193,GHrd_M_1to4,HRDCLS_1_4,Grain hardness,GHrd,"HRDCLS, GRNHRD",1-4 HRDCLS scale,Grain hardness is used as a grading factor to determine the type of wheat. It is a key determinant for classification of wheat and end product quality.,official,,
+CO_321:0001194,GHrd_M_pct,GRNHRD_pct,Grain hardness,GHrd,"HRDCLS, GRNHRD",%,Grain hardness is used as a grading factor to determine the type of wheat. It is a key determinant for classification of wheat and end product quality.,official,28.0,75.0
+CO_321:0001195,GHrd_M_1to5,HRDCLS_1_5,Grain hardness,GHrd,"HRDCLS, GRNHRD",1-5 HRDCLS scale,Grain hardness is used as a grading factor to determine the type of wheat. It is a key determinant for classification of wheat and end product quality.,official,,
+CO_321:0001196,GIron_M_ppm,GRNIRON_ppm,Grain Iron content,GIron,GRNIRON,ppm,Content of iron in grain.,official,0.0,500.0
+CO_321:0001197,GrnIron_M_mgkg,GRNIRON_mg_kg,Grain Iron content,GIron,GRNIRON,mg/kg,Content of iron in grain.,official,,
+CO_321:0001198,GMoi_E_pct,GRNH20_pct,Grain moisture content,GMoi,"GRNH20, GrnMoist",%,Moisture content of grain.,official,0.0,45.0
+CO_321:0001201,GrnSpl_Calc_GrnSpl,"GRNSPL, grains/spikelet, GRNSPL_num",Grain number per spikelet,GrnSpl,,grain/spikelet,Number of grains per spikelet.,official,1.0,30.0
+CO_321:0001202,GPhos_M_mgkg,GRNPHOS_mg_kg,Grain Phosphorous content,GPhos,GRNPHOS,mg/kg,Content of phosphorus in grain.,official,,
+CO_321:0001203,GPhos_M_ppm,GRNPHOS_ppm,Grain Phosphorous content,GPhos,GRNPHOS,ppm,Content of phosphorus in grain.,official,,
+CO_321:0001204,GPlump_E_1to3,GRNPLUMP_1_3,Grain plumpness,GPlump,GRNPLUMP,1-3 GRNPLUMP scale,The degree of endosperm filling.,official,,
+CO_321:0001205,GProt_Kjl_pct,GRNPROT_pct,Grain protein content,GProt,"GRNPROT, GRNPRO",%,Content of protein (corrected to 12.5% moisture basis) in the whole wheat grain samples.,official,8.0,20.0
+CO_321:0001206,GProt_NIRS_pct,GRNPROT_pct,Grain protein content,GProt,"GRNPROT, GRNPRO",%,Content of protein (corrected to 12.5% moisture basis) in the whole wheat grain samples.,official,8.0,20.0
+CO_321:0001207,GReten_M_pct,GRNRETEN_pct,Grain retention,GReten,GRNRETEN,%,Proportion of big grain remaining above the sieve.,official,,
+CO_321:0001208,GScreen_M_pct,GRNSCREEN_pct,Grain screenings,GScreen,GRNSCREEN,%,Proportion of small grain passing through a sieve.,official,,
+CO_321:0001209,GSize_E_1to3,GRNSIZE_1_3,Grain size,GSize,"GSiz, Ksize, GrnSize",1-3 SIZE scale,Grain size.,official,,
+CO_321:0001210,TestWt_M_gl,TESTWT_g_l,Grain test weight,TestWt,,g/l,Test weight or specific weight is the weight of a fixed volume of clean grains.,official,,
+CO_321:0001211,TestWt_M_kghl,TESTWT_kg_hl,Grain test weight,TestWt,,kg/hl,Test weight or specific weight is the weight of a fixed volume of clean grains.,official,37.0,87.0
+CO_321:0001212,GVtr_E_1to3,SEDVTR_1_3,Grain vitreousness,GVtr,"SdVtr, SEDVTR",1-3 SEDVTR scale,One of the key quality parameters in the determination of durum quality referring to translucent or glass-like appearance when seeds are transversely sectioned and observed whether not vitreous/partly vitreous/vitreous. it is associated with high protein and hard grain.,official,,
+CO_321:0001214,GW_M_g100grn,GW100_g,Grain weight,GW,"GrnWt, GrnW, KW, KrnWt",g/100 grain,"Grain weight usually expressed as weight of single, one hundred, two hundred or thousand grains.",official,,
+CO_321:0001215,GW_M_g200grn,GW200_g,Grain weight,GW,"GrnWt, GrnW, KW, KrnWt",g/200 grain,"Grain weight usually expressed as weight of single, one hundred, two hundred or thousand grains.",official,,
+CO_321:0001216,GYellBer_M_pct,YELBER_pct,Grain yellow berry incidence,GYellBer,YELBER,%,Refers to grains showing chalky or starchy endosperm areas.,official,0.0,100.0
+CO_321:0001218,GY_Calc_kgha,"Yld_kgha, GY_kgha, GRNYLD_kg_ha",Grain yield,GY,"GrnYld, Yld",kg/ha,Amount (weight) of grains that was harvested.,official,0.0,20000.0
+CO_321:0001219,GY_Calc_tha,"Yld_tha, GY_tha, GRNYLD_t_ha",Grain yield,GY,"GrnYld, Yld",t/ha,Amount (weight) of grains that was harvested.,official,0.1,13.0
+CO_321:0001220,GY_M_gPlnt,GRNYLD_g_pl,Grain yield,GY,"GrnYld, Yld",g/plant,Amount (weight) of grains that was harvested.,official,,
+CO_321:0001221,GY_M_gPlot,PLOTGRNYLD_g,Grain yield,GY,"GrnYld, Yld",g/plot,Amount (weight) of grains that was harvested.,official,0.0,12000.0
+CO_321:0001222,GY_M_kgPlot,PLOTGRNYLD_kg,Grain yield,GY,"GrnYld, Yld",kg/plot,Amount (weight) of grains that was harvested.,official,,
+CO_321:0001223,GY_PctChk_pct,YLDCHECK_pct,Grain yield,GY,"GrnYld, Yld",%,Amount (weight) of grains that was harvested.,official,0.0,200.0
+CO_321:0001224,GYFac_Calc_num,YLDFAC_num,Grain yield factor,GYFac,YLDFAC,num,Yield factor.,official,,
+CO_321:0001225,GZinc_M_mgkg,GRNZINC_mg_kg,Grain Zinc content,GZinc,GRNZINC,mg/kg,Content of zinc in grain.,official,,
+CO_321:0001226,GZinc_M_ppm,GRNZINC_ppm,Grain Zinc content,GZinc,GRNZINC,ppm,Content of zinc in grain.,official,0.0,200.0
+CO_321:0001227,GrwCls_E_1to3,GROWTHCLS_1_3,Growth class,GrwCls,,1-3 GROWTHCLS scale,"Classification of vernalization responsive growth habit as winter, facultative or spring wheat.",official,,
+CO_321:0001228,GrwStg_Zdks_00to99,"GRWSTG_00_99, DECODS",Growth stage,GrwStg,DECODS,Zadoks or decimal code (00-99),Growth/developmental stages based on Zadoks decimal code.,official,,
+CO_321:0001229,HailDmg_E_0to9,HAILDMG_0_9,Hail damage,HailDmg,,0-9 DAMAGE scale,Plant damage caused by hail.,official,,
+CO_321:0001230,HailDmg_E_1to5,"HAILDMG_1_5, HailDmg_N_T_S_M_V",Hail damage,HailDmg,,1-5 DMG scale,Plant damage caused by hail.,official,,
+CO_321:0001232,HI_Calc_pct,HI_pct,Harvest index,HI,,%,A ratio of grain yield to total above ground biomass.,official,0.0,70.0
+CO_321:0001233,Hd_date_jd,"HEADD_jd, HEADD, HEADDATE",Heading time,Hd,"Head, Heading, H",Julian date (JD),Heading time extends from the time of emergence of the tip of the spike from the flag leaf sheath to when the spike has completely emerged but has not yet started to flower.,official,,
+CO_321:0001234,Hd_date_ymd,"HEADD_yyyymmdd, HEADD, HEADDATE",Heading time,Hd,"Head, Heading, H",yyyymmdd,Heading time extends from the time of emergence of the tip of the spike from the flag leaf sheath to when the spike has completely emerged but has not yet started to flower.,official,,
+CO_321:0001236,Hd_relat_1to5,"RELTHD_1_5, RELTHD",Heading time,Hd,"Head, Heading, H",1-5 Phenological relative scale,Heading time extends from the time of emergence of the tip of the spike from the flag leaf sheath to when the spike has completely emerged but has not yet started to flower.,official,,
+CO_321:0001237,HeatTol_E_1to5,HEATTTOL_1_5,Heat tolerance,HeatTol,,1-5 TOL scale,Plant tolerance to heat conditions.,official,,
+CO_321:0001238,HelSpInc_E_0to9pcttext,HELSP_0_9text,Helminthosporium species incidence,HelSpInc,,0-9 percentage scale + text,The disease incidence in the plants caused by the agent helminthosporium species.,official,,
+CO_321:0001239,HelSpLegacy_E_1to9,HELSP_1_9,Helminthosporium species legacy,HelSpLegacy,,1-9 disease scale,The disease incidence/severity/response in the plants caused by the agent helminthosporium species.,official,,
+CO_321:0001240,HelSpSev_E_00to99text,HELSP_00_99text,Helminthosporium species severity,HelSpSev,,Double digit (00-99) + text,The disease severity in the plants caused by the agent helminthosporium species.,official,,
+CO_321:0001241,HelSpSev_E_00to99,HELSP_00_99,Helminthosporium species severity,HelSpSev,,Double digit (00-99),The disease severity in the plants caused by the agent helminthosporium species.,official,,
+CO_321:0001242,HerbicideDmg_E_1to5,"HERBDMG_1_5, HerbDmg_N_T_S_M_V",Herbicide damage,HerbicideDmg,HerbDmg,1-5 DMG scale,Plant damage caused by herbicide.,official,,
+CO_321:0001243,HesFlyDmg_E_pct,HESFDMG _pct,Hessian fly damage,HesFlyDmg,HESFDMG ,%,"The plant damage caused by hessian fly, Maytiola destructor.",official,0.0,100.0
+CO_321:0001244,InfertTN_Ct_InTllrm,INFERTNO_tll_m,Infertile tiller number,InfertTN,,infertile tiller/m,"Number of infertile tillers  per unit area, sample or plant.",official,,
+CO_321:0001245,InfertTN_Ct_InTllrm2,INFERTNO_tll_m2,Infertile tiller number,InfertTN,,infertile tiller/m2,"Number of infertile tillers  per unit area, sample or plant.",official,,
+,ISBM_Calc_gm2_40DAE,ISBM_g_m2,In-season aboveground biomass at forty days after emergence,ISBM,,g/m2,All above-ground biomass at any developmental stage and/or at regular intervals from the emergence to physiological maturity.,not official,,
+,ISBM_Calc_gm2_InB,ISBM_g_m2,In-season aboveground biomass at initiation of booting,ISBM,,g/m2,All above-ground biomass at any developmental stage and/or at regular intervals from the emergence to physiological maturity.,not official,,
+,ISBM_Calc_gm2_7DAA,ISBM_g_m2,In-season aboveground biomass at seven days after anthesis,ISBM,,g/m2,All above-ground biomass at any developmental stage and/or at regular intervals from the emergence to physiological maturity.,not official,,
+CO_321:0001247,ISBM_Calc_kgha,ISBM_kg_ha,In-season aboveground biomass,ISBM,,kg/ha,All above-ground biomass at any developmental stage and/or at regular intervals from the emergence to physiological maturity.,official,0.5,3.0
+CO_321:0001248,ISBM_Calc_tha,ISBM_t_ha,In-season aboveground biomass,ISBM,,t/ha,All above-ground biomass at any developmental stage and/or at regular intervals from the emergence to physiological maturity.,official,0.0,20.0
+CO_321:0001249,ISBM_M_gPlot,ISBM_g_plot,In-season aboveground biomass,ISBM,,g/plot,All above-ground biomass at any developmental stage and/or at regular intervals from the emergence to physiological maturity.,official,1000.0,10000.0
+CO_321:0001250,ISBM_M_kgPlot,ISBM_kg_plot,In-season aboveground biomass,ISBM,,kg/plot,All above-ground biomass at any developmental stage and/or at regular intervals from the emergence to physiological maturity.,official,1.0,10.0
+CO_321:0001251,InsectDmg_E_pct,INSECTDMG_pct,Insect damage,InsectDmg,,%,The plant damage caused by insects.,official,0.0,100.0
+CO_321:0001252,InsectDmg_E_1to5,"INSECTDMG_1_5, InsectDmg_N_T_S_M_V",Insect damage,InsectDmg,,1-5 DMG scale,The plant damage caused by insects.,official,,
+CO_321:0001253,TindiInc_E_pct,TINDI_pct,Karnal bunt incidence,TindiInc,"KBInc, TINDI, KB",%,Karnal bunt incidence in the plants caused by the agent Tilletia indica (syn. Neovossia indica). ,official,0.0,100.0
+CO_321:0001254,LAI_Calc_Idx,LAI_index,Leaf area index,LAI,,index,It is a dimensionless quantity that characterizes plant canopies and defined as the leaf area per unit ground surface area.,official,0.0,10.0
+CO_321:0001255,LeafCID_M_delta13C,LEAVESCID_delta,Leaf carbon isotope discrimination,LeafCID,LeavesCID,delta 13C,"Leaves carbon isotope discrimination can be measured in the leaves during early canopy development in well irrigated trials, in which case genotypic effects will be related mainly to transpiration efficiency.",official,,
+CO_321:0001256,Chl_M_CCI,CHL_CCI,Leaf chlorophyll content,Chl,"ChloC, ChlCont, LChl",CCI,Chlorophyll content in leaf green tissue. It includes both chlorophyll-a and chlorophyll-b. Chlorophyll is the green pigment found in plants.,official,10.0,75.0
+CO_321:0001257,LeafGlau_E_0to9,LEAFGLAU_0_9,Leaf glaucousness,LeafGlau,,0-9 density scale,Glaucousness in leaf.,official,,
+CO_321:0001258,LeafGlau_E_1to5,LEAFGLAU_1_5,Leaf glaucousness,LeafGlau,,1-5 density scale,Glaucousness in leaf.,official,,
+CO_321:0001259,LeafLng_M_cm,LEAFLNG_cm,Leaf length,LeafLng,,cm,Length of leaf.,official,5.0,90.0
+CO_321:0001260,LeafPubDen_E_0to9,LEAFPUBDEN_0_9,Leaf pubescence density,LeafPubDen,,0-9 density scale,Leaf hairiness density.,official,,
+CO_321:0001261,LeafPubLng_M_um,LEAFPUBLNG _um,Leaf pubescence length,LeafPubLng,,µm,Leaf pubescent length.,official,,
+CO_321:0001262,PrecoCI_Calc_pct,PRECO_pct__CI,Leaf rust coefficient of infection,PrecoCI,"BwRustCI, LRCI",%,Leaf rust (brown rust) incidence/severity/response in the plants caused by the agent Puccinia recondita. ,official,0.0,100.0
+CO_321:0001263,PrecoInc_E_1to9,PRECO_1_9,Leaf rust incidence,PrecoInc,"BwRustInc, LRInc",1-9 incidence scale,Leaf rust (brown rust) incidence in the plants caused by the agent Puccinia recondita. ,official,,
+CO_321:0001264,PrecoLegacy_E_9to1,PRECO_9_1,Leaf rust legacy,PrecoLegacy,"BwRustLegacy, LRLegacy",9-1 PRECO scale,Leaf rust (brown rust) incidence/severity/response in the plants caused by the agent Puccinia recondita. ,official,,
+CO_321:0001265,PrecoNote_E_text,PRECO_text,Leaf rust notes,PrecoNote,"BrwRustInc, LRInc",text,Leaf rust (brown rust) incidence/severity/response in the plants caused by the agent Puccinia recondita. ,official,,
+CO_321:0001266,PrecoResp_E_0to4,PRECO_0_4__RESP,Leaf rust plant response,PrecoResp,"BwRustResp, LRResp",0-4 PRECO scale,Leaf rust (brown rust) response in the plants caused by the agent Puccinia recondita. ,official,,
+CO_321:0001267,PrecoResp_E_1to4,PRECO_1_4__RESP,Leaf rust plant response,PrecoResp,"BwRustResp, LRResp",1-4 PRECO scale,Leaf rust (brown rust) response in the plants caused by the agent Puccinia recondita. ,official,,
+CO_321:0001268,PrecoResp_E_1to8,PRECO_1_8__ADLTRESP,Leaf rust plant response,PrecoResp,"BwRustResp, LRResp",1-8 rust field response scale,Leaf rust (brown rust) response in the plants caused by the agent Puccinia recondita. ,official,,
+CO_321:0001269,PrecoSdlgResp_E_0to8,PRECO_0_8__SEEDRESP,Leaf rust seedling response,PrecoSdlgResp,"BwRustSdlgResp, LRSdlgResp",0-8 Rust infection type,Leaf rust (brown rust) response in the plants caused by the agent Puccinia recondita. ,official,,
+CO_321:0001270,PrecoSev_E_pct,PRECO_pct__SEV,Leaf rust severity,PrecoSev,"BwRustSev, LRSev",%,Leaf rust (brown rust) severity in the plants caused by the agent Puccinia recondita. ,official,0.0,100.0
+CO_321:0001271,PrecoSev_E_0to12,PRECO_0_12__SEV,Leaf rust severity,PrecoSev,"BwRustSev, LRSev",0-12 Modified Cobb Scale,Leaf rust (brown rust) severity in the plants caused by the agent Puccinia recondita. ,official,,
+CO_321:0001272,StomaCond_M_mmolm2s,STMCOND_mmol_m2_s,Leaf stomatal conductance,StomaCond,"Cond, GS, STMCOND",mmol/m2/s,Rate of passage of either water vapor or carbon dioxide through the stomata.,official,,
+CO_321:0001273,StomaFrq_Ct_stomamm2,"STMFRQ_num, STMFRQ",Leaf stomatal frequency,StomaFrq,,stoma/mm2,Number of stomata counted per unit area on the leaf surface.,official,,
+CO_321:0001274,StomaRes_M_sm,STMRES_s_m,Leaf stomatal resistance,StomaRes,"Res, STMRES",s/m,Resistance to diffusion of water vapor through a plant stomata.,official,0.0,200.0
+CO_321:0001275,StomaSiz_M_um,STMSIZ _um,Leaf stomatal size,StomaSiz,STMSIZ ,µm,Stomata size.,official,,
+CO_321:0001276,LeafThk_M_um,LEAFTHK_mm,Leaf thickness,LeafThk,,µm,Measurement of leaf thickness.,official,0.1,0.5
+CO_321:0001277,LeafTNecro_E_pct,LEAFTNECR _pct,Leaf tip necrosis incidence,LeafTNecro,LEAFTNECR ,%,"A physiological phenomenon caused by hot, dry and windy weather. the whole tip of the flag leaf tends to be necrotic and will often fold over. leaf tip necrosis progresses from the margins of the flag leaf tip and lower leaves as well show some signs of it. leaf tip necrosis is observed to some extent in all wheat varieties containing the leaf rust gene resistance gene lr34.",official,0.0,100.0
+CO_321:0001278,LeafWid_M_mm,LEAFWID_mm,Leaf width,LeafWid,,mm,Width of leaf.,official,2.0,40.0
+CO_321:0001279,Lodg_E_0to9pcttext,LODG_0_9text,Lodging incidence,Lodg,LOD,0-9 percentage scale + text,Indicates incidence of lodged plants.,official,,
+CO_321:0001280,Lodg_E_pct,LODG_pct,Lodging incidence,Lodg,"LOD, LODGPC",%,Indicates incidence of lodged plants.,official,0.0,100.0
+CO_321:0001281,Lodg_E_0to5pct,LODG_0_5,Lodging incidence,Lodg,LOD,0-5 percentage scale,Indicates incidence of lodged plants.,official,,
+CO_321:0001282,Lodg_E_0to9pct,LODG_0_9,Lodging incidence,Lodg,LOD,0-9 percentage scale,Indicates incidence of lodged plants.,official,,
+CO_321:0001283,Lodg_E_1to5,"LODG_1_5, LodgInc_N_T_S_M_V",Lodging incidence,Lodg,LOD,1-5 DMG scale,Indicates incidence of lodged plants.,official,,
+CO_321:0001284,Lodg_E_1to9,LODG_1_9,Lodging incidence,Lodg,LOD,1-9 incidence scale,Indicates incidence of lodged plants.,official,,
+CO_321:0001285,UtritInc_E_pct,UTRIT_pct__INC,Loose smut incidence,UtritInc,UTRIT,%,Loose smut incidence in the plants caused by Ustilago tritici.,official,0.0,100.0
+CO_321:0001286,UtritInc_E_1to9,UTRIT_1_9__INC,Loose smut incidence,UtritInc,UTRIT,1-9 incidence scale,Loose smut incidence in the plants caused by ustilago tritici.,official,,
+CO_321:0001287,Mat_relat_1to6,"RELTMT_1_6, RELTMT",Maturity time,Mat,"Mt, M, Maturity",1-6 Phenological relative scale,Maturity time starts at hard dough stage (ds87) often called physiological maturity.,official,,
+CO_321:0001288,Mat_date_jd,"MATD_jd, MATD, MATDATE",Maturity time,Mat,"Mt, M, Maturity",Julian date (JD),Maturity time starts at hard dough stage (ds87) often called physiological maturity.,official,,
+CO_321:0001289,Mat_date_ymd,"MATD_yyyymmdd, MATD, MATDATE",Maturity time,Mat,"Mt, M, Maturity",yyyymmdd,Maturity time starts at hard dough stage (ds87) often called physiological maturity.,official,,
+CO_321:0001291,Mat_relat_1to5,"RELTMT_1_5, RELTMT",Maturity time,Mat,"Mt, M, Maturity",1-5 Phenological relative scale,Maturity time starts at hard dough stage (ds87) often called physiological maturity.,official,,
+CO_321:0001292,HtereInc_E_pct,HTERE_pct__INC,Net blotch incidence,HtereInc,,%,Net blotch incidence in the plants caused by the agent Pyrenophora teres (helminthosporium teres).,official,,
+CO_321:0001293,HtereSev_E_00to99,HTERE_00_99__SEV,Net blotch severity,HtereSev,,Double digit (00-99),Net blotch severity in the plants caused by the agent Pyrenophora teres (helminthosporium teres).,official,,
+CO_321:0001294,NodeNO_Ct_node,NODENO _num,Node number,NodeN,,node,Number of nodes in the main stem.,official,1.0,15.0
+CO_321:0001295,PedGlau_E_0to9,PEDGLAU_0_9,Peduncle glaucousness,PedGlau,,0-9 density scale,Glaucousness in peduncle.,official,,
+CO_321:0001296,PedLng_M_cm,PEDLNG _cm,Peduncle length,PedLng,,cm,Length of peduncle.,official,5.0,150.0
+CO_321:0001297,NeckBreak_E_pct,NBREAK_pct,Peduncle neck break,NeckBreak,NBreak,%,Observation of spike break from the base of head.,official,0.0,100.0
+CO_321:0001298,PedPubDen_E_0to9,PEDPBD_0_9,Peduncle pubescence density,PedPubDen,PEDPBD,0-9 density scale,Peduncle hairiness density.,official,,
+CO_321:0001299,ErlVig_E_1to5,ERLVIG_1_5,Plant early vigour,ErlVig,ERLVIG,1-5 scoring scale,Capacity of a seedling or plant to grow vegetatively in early stages of development.,official,,
+CO_321:0001300,GrwHabit_E_1to5,GHABIT_1_5,Plant growth habit,GrwHabit,GHabit,1-5 GHABIT scale,The growth habit of the plant whether erect/semi-erect/semi-spreading/spreading/prostrate.,official,,
+CO_321:0001302,PH_M_m,PH_m,Plant height,PH,"PlntHt, PHt",m,"Height of plant from ground to top of spike, excluding awns.",official,0.0,2.5
+CO_321:0001303,PH_E_1to5,RELTPH_1_5,Plant height,PH,"PlntHt, PHt",1-5 RELTPH scale,"Height of plant from ground to top of spike, excluding awns.",official,,
+CO_321:0001304,HNecro_E_0to1,HNECRO_0_1,Plant hybrid necrosis incidence,HNecro,,0-1 absent-present,Observation of hybrid necrosis.,official,,
+CO_321:0001305,PhotopResp_E_1to9,PHOTORESPO_1_9,Plant photoperiod response,PhotopResp,PhotoRespo,1-9 PHOTORESP scale,Extent to which long days hasten flowering.,official,,
+CO_321:0001306,PlntStnd_Calc_Plntha,PLNTSTND_pl_ha,Plant stand,PlntStnd,PStand,plant/ha,Plant population or plant density.,official,,
+CO_321:0001307,PlntStnd_Calc_Plntm2,PLNTSTND_pl_m2,Plant stand,PlntStnd,PStand,plant/m2,Plant population or plant density.,official,25.0,400.0
+CO_321:0001308,PlntStnd_Ct_Plntm,PLNTSTND_pl_m,Plant stand,PlntStnd,PStand,plant/m,Plant population or plant density.,official,,
+CO_321:0001309,PlntStnd_Ct_PlntPlot,PLNTSTND_pl_plot,Plant stand,PlntStnd,PStand,plant/plot,Plant population or plant density.,official,,
+CO_321:0001310,VgP_calc_day,VEGPERIOD_days,Plant vegetative period,VgP,"VegPeriod, VegP, VP",day,Time period between emergence (ds10) and first node detectable (ds31).,official,,
+CO_321:0001311,VgP_calc_pct,VEGPERIOD_pct,Plant vegetative period,VgP,"VegPeriod, VegP, VP",%,Time period between emergence (ds10) and first node detectable (ds31).,official,15.0,80.0
+CO_321:0001312,PlntVig_E_1to5,PLNTVIG_1_5,Plant vigour,PlntVig,Vig,1-5 scoring scale,Capacity of the plant to grow.,official,,
+CO_321:0001313,EgramInc_E_0to9pcttext,EGRAM_0_9text__INC,Powdery mildew incidence,EgramInc,EGRAM,0-9 percentage scale + text,Powdery mildew incidence in the plants caused by the agent Blumeria graminis (Erysiphe graminis) f. sp. tritici.,official,,
+CO_321:0001314,EgramInc_E_pct,EGRAM_pct__INC,Powdery mildew incidence,EgramInc,EGRAM,%,Powdery mildew incidence in the plants caused by the agent Blumeria graminis (Erysiphe graminis) f. sp. tritici.,official,0.0,100.0
+CO_321:0001315,EgramInc_E_0to5,EGRAM_0_5__INC,Powdery mildew incidence,EgramInc,EGRAM,0-5 incidence scale,Powdery mildew incidence in the plants caused by the agent Blumeria graminis (Erysiphe graminis) f. sp. tritici.,official,,
+CO_321:0001316,EgramInc_E_1to5,EGRAM_1_5__INC,Powdery mildew incidence,EgramInc,EGRAM,1-5 incidence scale,Powdery mildew incidence in the plants caused by the agent Blumeria graminis (Erysiphe graminis) f. sp. tritici.,official,,
+CO_321:0001317,EgramInc_E_1to9,EGRAM_1_9__INC,Powdery mildew incidence,EgramInc,EGRAM,1-9 incidence scale,Powdery mildew incidence in the plants caused by the agent Blumeria graminis (Erysiphe graminis) f. sp. tritici.,official,,
+CO_321:0001318,EgramLegacy_E_9to1,EGRAM_9_1,Powdery mildew legacy,EgramLegacy,EGRAM,9-1 disease scale,Powdery mildew incidence/severity/response in the plants caused by the agent Blumeria graminis (Erysiphe graminis) f. sp. tritici.,official,,
+CO_321:0001319,EgramSev_E_00to99text,EGRAM_00_99text__SEV,Powdery mildew severity,EgramSev,EGRAM,Double digit (00-99) + text,Powdery mildew severity in the plants caused by the agent Blumeria graminis (Erysiphe graminis) f. sp. tritici.,official,,
+CO_321:0001320,EgramSev_E_00to99,EGRAM_00_99__SEV,Powdery mildew severity,EgramSev,EGRAM,Double digit (00-99),Powdery mildew severity in the plants caused by the agent Blumeria graminis (Erysiphe graminis) f. sp. tritici.,official,,
+CO_321:0001321,PnegleDmg_E_pct,PNEGLE_pct,Pratylenchus neglectus damage,PnegleDmg,"PNEGLE, RLN",%,"The plant damage caused by root-lesion nematode, Pratylenchus neglectus.",official,0.0,100.0
+CO_321:0001322,PthornDmg_E_pct,PTHORN_pct,Pratylenchus thornei damage,PthornDmg,"PTHORN, RLN",%,"The plant damage caused by root-lesion nematode, Pratylenchus thornei.",official,0.0,100.0
+CO_321:0001323,RepP_Calc_day,REPPERIOD_days,Reproductive period,RepP,"RepPeriod, RP",day,Time between double ridge (approx. ds14) and anthesis (ds65).,official,,
+CO_321:0001324,RepP_Calc_pct,REPPERIOD_pct,Reproductive period,RepP,"RepPeriod, RP",%,Time between double ridge (approx. ds14) and anthesis (ds65).,official,5.0,55.0
+CO_321:0001325,RsolaInc_E_0to9pct,RSOLA_0_9,Rhizoctonia root rot incidence,RsolaInc,RSOLA,0-9 percentage scale,Rhizoctonia root rot incidence in the plants caused by the agent Rhizoctonia solani. ,official,,
+CO_321:0001326,RodentDmg_E_pct,RODDMG_pct,Rodent damage,RodentDmg,RODDMG,%,The plant damage caused by rodent.,official,0.0,100.0
+CO_321:0001327,RootDis_E_1to5,"ROOTDIS_1_5, RootDis_N_T_S_M_V",Root disease development,RootDis,,1-5 DMG scale,The plant damage caused by root diseases.,official,,
+CO_321:0001328,RLNDmg_E_pct,RLESDMG_pct,Root lesion nematode damage,RLNDmg,"RLESDMG, RLN",%,"The plant damage caused by root-lesion nematodes, Pratylenchus spp.",official,0.0,100.0
+CO_321:0001329,DnoxiDmg_E_pct,DNOXI_pct,Russian wheat aphid damage,DnoxiDmg,DNOXI,%,"The plant damage caused by Russian wheat aphid, Diuraphis noxis.",official,0.0,100.0
+CO_321:0001330,SaltTol_E_1to9,SALTOL _1_9,Salinity tolerance,SaltTol,SALTOL ,1-9 TOL scale,Plant tolerance to soil salinity.,official,,
+CO_321:0001331,SawflyDmg_E_pct,CPYGM_pct,Sawfly damage,SawflyDmg,"CcincDmg, CPYGMDmg",%,"The plant damage caused by sawfly, Cephus cinctus.",official,0.0,100.0
+CO_321:0001332,SGNDmg_E_pct,ATRITDMG _pct,Seed gall nematode damage,SGNDmg,AtritDmg,%,The wheat seed-gall nematode damage caused by Anguina tritici.,official,0.0,100.0
+CO_321:0001333,SemoCol_M_bvalue,SEMOCOL_b_value,Semolina color,SemoCol,,b value,The semolina color.,official,,
+CO_321:0001334,SemoProt_Kjl_pct,SEMOPROT _pct,Semolina protein content,SemoProt,,%,Protein content in durum wheat semolina.,official,7.0,16.0
+CO_321:0001335,SemoProt_NIRS_pct,SEMOPROT _pct,Semolina protein content,SemoProt,,%,Protein content in durum wheat semolina.,official,7.0,16.0
+CO_321:0001336,SemoYellPig_M_ppm,SEMOYELPIG_ppm,Semolina yellow pigment content,SemoYellPig,SEMOYELPIG,ppm,Semolina yellow pigment content due to the presence of xanthophyll and other related compounds.,official,1.0,15.0
+CO_321:0001337,SepSPInc_E_pct,SEPSP_pct__INC,Septoria blotch incidence,SepSPInc,,%,Septoria blotch incidence in the plants caused by the agent Septoria species.,official,0.0,100.0
+CO_321:0001338,SepSpLegacy_E_1to9,SEPSP_1_9,Septoria blotch legacy,SepSpLegacy,,1-9 disease scale,Septoria blotch incidence/severity/response in the plants caused by the agent Septoria species.,official,,
+CO_321:0001339,SepSpLegacy_E_9to1,SEPSP_9_1,Septoria blotch legacy,SepSpLegacy,,9-1 disease scale,Septoria blotch incidence/severity/response in the plants caused by the agent Septoria species.,official,,
+CO_321:0001340,SepSpResp_E_0to5,SEPSP_0_5__RESP,Septoria blotch plant response,SepSpResp,,0-5 Septoria Response scale,Septoria blotch response in the plants caused by the agent Septoria species.,official,,
+CO_321:0001341,SepSpResp_E_1to5,SEPSP_1_5__RESP,Septoria blotch plant response,SepSpResp,,1-5 Septoria response scale,Septoria blotch response in the plants caused by the agent Septoria species.,official,,
+CO_321:0001342,SepSpSev_E_00to99text,SEPSP_00_99text__SEV,Septoria blotch severity,SepSpSev,,Double digit (00-99) + text,Septoria blotch severity in the plants caused by the agent Septoria species.,official,,
+CO_321:0001343,SepSpSev_E_0to9pcttext,SEPSP_0_9text__INC,Septoria blotch severity,SepSpSev,,0-9 percentage scale + text,Septoria blotch severity in the plants caused by the agent Septoria species.,official,,
+CO_321:0001344,SepSpSev_E_00to99,SEPSP_00_99__SEV,Septoria blotch severity,SepSpSev,,Double digit (00-99),Septoria blotch severity in the plants caused by the agent Septoria species.,official,,
+CO_321:0001345,SnodoInc_E_0to9pcttext,SNODO_0_9text__INC,Septoria nodorum blotch incidence,SnodoInc,,0-9 percentage scale + text,Septoria nodorum blotch incidence in the plants caused by the agent Stagonospora nodorum (syn. Septoria glume blotch) (Phaeosphaeria nodorum (E. Müller) Hedjaroude (syn. Stagonospora nodorum). ,official,,
+CO_321:0001346,SnodoInc_E_pct,SNODO_pct__INC,Septoria nodorum blotch incidence,SnodoInc,,%,Septoria nodorum blotch incidence in the plants caused by the agent Stagonospora nodorum (syn. Septoria glume blotch) (Phaeosphaeria nodorum (E. Müller) Hedjaroude (syn. Stagonospora nodorum). ,official,0.0,100.0
+CO_321:0001347,SnodoLegacy_E_1to9,SNODO_1_9,Septoria nodorum blotch legacy,SnodoLegacy,,1-9 disease scale,Septoria nodorum blotch incidence/severity/response in the plants caused by the agent Stagonospora nodorum (syn. Septoria glume blotch) (Phaeosphaeria nodorum (E. Müller) Hedjaroude (syn. Stagonospora nodorum). ,official,,
+CO_321:0001348,SnodoLegacy_E_9to1,SNODO_9_1,Septoria nodorum blotch legacy,SnodoLegacy,,9-1 disease scale,Septoria nodorum blotch incidence/severity/response in the plants caused by the agent Stagonospora nodorum (syn. Septoria glume blotch) (Phaeosphaeria nodorum (E. Müller) Hedjaroude (syn. Stagonospora nodorum).,official,,
+CO_321:0001349,SnodoSev_E_00to99+text,SNODO_00_99__SEV,Septoria nodorum blotch severity,SnodoSev,,Double digit (00-99),Septoria nodorum blotch severity in the plants caused by the agent Stagonospora nodorum (syn. Septoria glume blotch) (Phaeosphaeria nodorum (E. Müller) Hedjaroude (syn. Stagonospora nodorum). ,official,,
+CO_321:0001350,StritInc_E_0to9pcttext,STRIT_0_9text__INC,Septoria tritici blotch incidence,StritInc,STRIT,0-9 percentage scale + text,Septoria tritici blotch incidence in the plants caused by the agent Mycosphaerella graminicola (Septoria tritici). symptoms: the lesions are linear and restricted laterally.,official,,
+CO_321:0001351,StritInc_E_pct,STRIT_pct__INC,Septoria tritici blotch incidence,StritInc,STRIT,%,Septoria tritici blotch incidence in the plants caused by the agent Mycosphaerella graminicola (Septoria tritici). symptoms: the lesions are linear and restricted laterally.,official,0.0,100.0
+CO_321:0001352,StritLegacy_E_1to9,STRIT_1_9,Septoria tritici blotch legacy,StritLegacy,STRIT,1-9 disease scale,Septoria tritici blotch incidence/severity/response in the plants caused by the agent Mycosphaerella graminicola (Septoria tritici). symptoms: the lesions are linear and restricted laterally.,official,,
+CO_321:0001353,StritLegacy_E_9to1,STRIT_9_1,Septoria tritici blotch legacy,StritLegacy,STRIT,9-1 disease scale,Septoria tritici blotch incidence/severity/response in the plants caused by the agent Mycosphaerella graminicola (Septoria tritici). symptoms: the lesions are linear and restricted laterally.,official,,
+CO_321:0001354,StritResp_E_0to5,STRIT_0_5__RESP,Septoria tritici blotch plant response,StritResp,STRIT,0-5 Septoria Response scale,Septoria tritici blotch response in the plants caused by the agent Mycosphaerella graminicola (Septoria tritici). symptoms: the lesions are linear and restricted laterally.,official,,
+CO_321:0001355,StritSev_E_00to99text,STRIT_00_99text__SEV,Septoria tritici blotch severity,StritSev,STRIT,Double digit (00-99) + text,Septoria tritici blotch severity in the plants caused by the agent Mycosphaerella graminicola (Septoria tritici). symptoms: the lesions are linear and restricted laterally.,official,,
+CO_321:0001356,StritSev_E_00to99,STRIT_00_99__SEV,Septoria tritici blotch severity,StritSev,STRIT,Double digit (00-99),Septoria tritici blotch severity in the plants caused by the agent Mycosphaerella graminicola (Septoria tritici). symptoms: the lesions are linear and restricted laterally.,official,,
+CO_321:0001357,RcereInc_E_0to9,RCERE_0_9,Sharp eyespot incidence,RcereInc,RCERE,0-9 RCERE scale,Sharp eyespot incidence in the plants caused by the agent Rhizoctonia cerealis. ,official,,
+CO_321:0001358,SnailDmg_E_pct,SNAILDMG_pct,Snail damage,SnailDmg,,%,The plant damage caused by snails.,official,0.0,100.0
+CO_321:0001359,SBMVInc_E_0to9pct,SBMV_0_9,Soil borne mosaic incidence,SBMVInc,SBMV,0-9 percentage scale,Soil borne mosaic incidence in the plants caused by the agent soilborne wheat mosaic virus (sbwmv) which is vectored by Plasmodiophorid polymyxa graminis. ,official,,
+CO_321:0001360,SrolfResp_E_1to8,SROLF_1_8,Southern blight plant response,SrolfResp,,1-8 generic disease field response scale,Southern blight response in the plants caused by the agent Corticum rolfsii (Sclerotium rolfsii).,official,,
+CO_321:0001361,Awns_E_0to9,AWNS_0_9,Spike awnedness,Awns,,0-9 AWNS scale,Observation of awn type whether awnless/awnletted (short awns)/awned (conspicious awns).,official,,
+CO_321:0001362,SpkDen_E_1to9,SPKDEN_1_9,Spike density,SpkDen,,1-9 SPKDEN scale,Density or compactness of a wheat spike.,official,1.0,9.0
+CO_321:0001363,SpkDis_E_1to5,"SPKDIS_1_5, SpkDis_N_T_S_M_V",Spike disease development,SpkDis,,1-5 DMG scale,The plant damage caused by spike diseases.,official,,
+CO_321:0001364,SpkLng_M_cm,SPKLNG_cm,Spike length,SpkLng,,cm,Length of spike.,official,1.0,25.0
+CO_321:0001366,SN_M_Spksm,SNO_spk_m,Spike number,SN,"SNO, SpkNO, SpkNo",spike/m,"Number of spikes (fertile culms) per unit area, sample or plant.",official,10.0,100.0
+CO_321:0001367,Shattering_E_pct,SHATTERING_pct,Spike shattering,Shattering,Rachis brittleness,%,Observation of grains dehiscence from spike at maturity.,official,0.0,100.0
+CO_321:0001368,Threshblty_E_1to9,THRESHBLTY_1_9,Spike threshability,Threshblty,,1-9 general scale,Threshability (ease to thresh) is a score where several spike-related traits such as rachis fragility (brittle or non-brittle rachis) and glume tenacity (hulled or free-threshing).,official,,
+CO_321:0001369,SplN_Ct_SplSpk,"SPLSPK_num, SPLSPK, spikelets/spike",Spikelet number,SplN,SplNo,spikelet/spike,Number of spikelets per spike.,official,1.0,50.0
+CO_321:0001370,HsatiLInc_E_0to9pcttext,HSATIL_0_9text__INC,Spot blotch incidence,HsatiLInc,HSATIL,0-9 percentage scale + text,Spot blotch incidence in the plants caused by the agent Cochliobolus sativus (helminthosporium sativum). ,official,,
+CO_321:0001371,HsatiLInc_E_pct,HSATIL_pct__INC,Spot blotch incidence,HsatiLInc,HSATIL,%,Spot blotch incidence in the plants caused by the agent Cochliobolus sativus (helminthosporium sativum). ,official,0.0,100.0
+CO_321:0001372,HsatiLLegacy_E_1to9,HSATIL_1_9,Spot blotch legacy,HsatiLLegacy,HSATIL,1-9 disease scale,Spot blotch incidence/severity/response in the plants caused by the agent Cochliobolus sativus (helminthosporium sativum). ,official,,
+CO_321:0001373,HsatiLLegacy_E_9to1,HSATIL_9_1,Spot blotch legacy,HsatiLLegacy,HSATIL,9-1 disease scale,Spot blotch incidence/severity/response in the plants caused by the agent Cochliobolus sativus (helminthosporium sativum). ,official,,
+CO_321:0001374,HsatiLSev_E_00to99text,HSATIL_00_99text__SEV,Spot blotch severity,HsatiLSev,HSATIL,Double digit (00-99) + text,Spot blotch severity in the plants caused by the agent Cochliobolus sativus (helminthosporium sativum). ,official,,
+CO_321:0001375,HsatiLSev_E_00to99,HSATIL_00_99__SEV,Spot blotch severity,HsatiLSev,HSATIL,Double digit (00-99),Spot blotch severity in the plants caused by the agent Cochliobolus sativus (helminthosporium sativum). ,official,,
+CO_321:0001376,SproutTol_E_1to9,SPROUTTOL _1_9,Sprouting tolerance,SproutTol,,1-9 TOL scale,Tolerance of grain to sprout when in the spike.,official,,
+CO_321:0001377,StmDia_M_mm,STMDIA_mm,Stem diameter,StmDia,STMDIA,mm,Stem outer diameter.,official,1.0,10.0
+CO_321:0001378,StmLng_M_cm,STMLNG_cm,Stem length,StmLng,,cm,Length of stem.,official,0.0,2.5
+CO_321:0001379,PgramCI_Calc_pct,PGRAM_pct__CI,Stem rust coefficient of infection,PgramCI,,%,Stem rust (black rust) incidence/severity/response in the plants caused by the agent Puccinia graminis f.sp. tritici. ,official,0.0,100.0
+CO_321:0001380,PgramNote_E_text,PGRAM_text,Stem rust notes,PgramNote,,text,Stem rust (black rust) incidence/severity/response in the plants caused by the agent Puccinia graminis f.sp. tritici. ,official,,
+CO_321:0001381,PgramResp_E_1to8,PGRAM_1_8__ADLTRESP,Stem rust plant response,PgramResp,PGRAM,1-8 rust field response scale,Stem rust (black rust) response in the plants caused by the agent Puccinia graminis f.sp. tritici. ,official,,
+CO_321:0001382,PgramSdlgResp_E_0to8,PGRAM_0_8__SEEDRESP,Stem rust seedling response,PgramSdlgResp,PGRAM,0-8 Rust infection type,Stem rust (black rust) response in the plants caused by the agent Puccinia graminis f.sp. tritici. ,official,,
+CO_321:0001383,PgramSev_E_pct,PGRAM_pct__SEV,Stem rust severity,PgramSev,PGRAM,%,Stem rust (black rust) severity in the plants caused by the agent Puccinia graminis f.sp. tritici. ,official,0.0,100.0
+CO_321:0001384,PgramSev_E_0to12,PGRAM_0_12__SEV,Stem rust severity,PgramSev,PGRAM,0-12 Modified Cobb Scale,Stem rust (black rust) severity in the plants caused by the agent Puccinia graminis f.sp. tritici. ,official,,
+CO_321:0001385,StmSol_E_1to3,STMSOL_1_3,Stem solidness,StmSol,,1-3 STMSOL scale,Solidness of stem.,official,,
+CO_321:0001386,StmStrength_E_1to9,STMSTRENGTH_1_9,Stem strength,StmStrength,,1-9 general scale,Strength of the culm.,official,,
+CO_321:0001387,StmWallThk_M_um,STMTHK_um,Stem wall thickness,StmWallThk,STMTHK,µm,Stem wall thickness.,official,,
+CO_321:0001388,StmWSC_M_pct,STEMWSC_pct,Stem water soluble carbohydrate concentration,StmWSC,"STEMWSC, WSC, ",%,"Water soluble carbohydrates accumulate up to and around anthesis and are partitioned to the stem, from where they are later available as a reservoir for remobilization to the developing grains. These reserves are an important source of carbon for grain filling.",official,0.0,50.0
+CO_321:0001389,SpkSterility_E_0to6,STERIND_0_6,Spike sterility index,SpkSterility,SterInd,0-6 Sterility scale,Spike sterility observed as infertile florets.,official,,
+CO_321:0001390,SpkSterility_Calc_pct,STERIND_pct,Spike sterility index,SpkSterility,SterInd,%,Spike sterility observed as infertile florets.,official,,
+CO_321:0001391,PstriCI_Calc_pct,PSTRI_pct__CI,Stripe rust coefficient of infection,PstriCI,"YRustCI, YRCI, PSTRIL",%,Stripe rust (yellow rust) incidence/severity/response in the plants caused by the agent Puccinia striiformis f.sp. tritici. ,official,0.0,100.0
+CO_321:0001392,PstriInc_E_1to9,PSTRI_1_9,Stripe rust incidence,PstriInc,"YRustInc, YRInc, PSTRIL",1-9 incidence scale,Stripe rust (yellow rust) incidence in the plants caused by the agent Puccinia striiformis f.sp. tritici. ,official,,
+CO_321:0001393,PstriNote_E_text,PSTRI_text,Stripe rust notes,PstriNote,"YRustNote, YRNote, PSTRIL",text,Stripe rust (yellow rust) incidence/severity/response in the plants caused by the agent Puccinia striiformis f.sp. tritici. ,official,,
+CO_321:0001394,PstriResp_E_0to9,PSTRI_0_9__RESP,Stripe rust plant response,PstriResp,"YRustResp, YRResp, PSTRIL",0-9 Mc Neal scale,Stripe rust (yellow rust) response in the plants caused by the agent Puccinia striiformis f.sp. tritici. ,official,,
+CO_321:0001395,PstriResp_E_1to8,PSTRI_1_8__ADLTRESP,Stripe rust plant response,PstriResp,"YRustResp, YRResp, PSTRIL",1-8 rust field response scale,Stripe rust (yellow rust) response in the plants caused by the agent Puccinia striiformis f.sp. tritici. ,official,,
+CO_321:0001396,PstriSev_E_pct,PSTRI_pct__SEV,Stripe rust severity,PstriSev,"YRustSev, YRSev, PSTRIL",%,Stripe rust (yellow rust) severity in the plants caused by the agent Puccinia striiformis f.sp. tritici. ,official,0.0,100.0
+CO_321:0001397,PstriSev_E_0to12,PSTRI_0_12__SEV,Stripe rust severity,PstriSev,"YRustSev, YRSev, PSTRIL",0-12 Modified Cobb Scale,Stripe rust (yellow rust) severity in the plants caused by the agent Puccinia striiformis f.sp. tritici. ,official,,
+CO_321:0001398,PstriSpkSev_E_pct,PSTRI_pct__SPKSEV,Stripe rust spike severity,PstriSpkSev,"YRustSpkSev, YRSpkSev, PSTRIL",%,Stripe rust (yellow rust) severity in the plants caused by the agent Puccinia striiformis f.sp. tritici. ,official,0.0,100.0
+CO_321:0001399,SuPDmg_E_1to5,SUPDMG _1_5,Suni pest damage,SuPDmg,,1-5 DMG scale,"The plant damage caused by suni pest (Eurygaster spp., sunn pest, suni bug).",official,,
+CO_321:0001400,GgtriInc_E_pct,GGTRI_pct__INC,Take all incidence,GgtriInc,GGTRI,%,Take-all incidence in the plants caused by the agent Gaeumannomyces graminis var. tritici (ggt).,official,0.0,100.0
+CO_321:0001401,GgtriInc_E_1to5,GGTRI_1_5_INC,Take all incidence,GgtriInc,GGTRI,1-5 DMG scale,Take-all incidence in the plants caused by the agent Gaeumannomyces graminis var. tritici (ggt).,official,,
+CO_321:0001402,TanSpotInc_E_0to9pcttext,TANSPOT_0_9text,Tan spot incidence,TanSpotInc,,0-9 percentage scale + text,"Tan spot (Pyrenophora yellow leaf blotch, yellow spot) incidence in the plants caused by the agent Pyrenophora tritici-repentis (helminthosporium tritici-repentis). Symptoms: the lesions appear as tan to brown flecks, which expand into large, irregular, oval- or lens-shaped tan blotches with a yellow or chlorotic margin.",official,,
+CO_321:0001403,TanSpotInc_E_pct,TANSPOT_pct,Tan spot incidence,TanSpotInc,,%,"Tan spot (Pyrenophora yellow leaf blotch, yellow spot) incidence in the plants caused by the agent Pyrenophora tritici-repentis (helminthosporium tritici-repentis). Symptoms: the lesions appear as tan to brown flecks, which expand into large, irregular, oval- or lens-shaped tan blotches with a yellow or chlorotic margin.",official,0.0,100.0
+CO_321:0001404,TanSpotResp_E_1to5,TANSPOT_1_5__ADLTRESP,Tan spot plant response,TanSpotResp,,1-5 TANSPOT field response scale ,"Tan spot (Pyrenophora yellow leaf blotch, yellow spot) response in the plants caused by the agent Pyrenophora tritici-repentis (helminthosporium tritici-repentis). Symptoms: the lesions appear as tan to brown flecks, which expand into large, irregular, oval- or lens-shaped tan blotches with a yellow or chlorotic margin.",official,,
+CO_321:0001405,TanSpotSdlgResp_E_0to5,TANSPOT_0_5__SEEDRESP,Tan spot seedling response,TanSpotSdlgResp,,0-5 TANSPOT field response scale ,"Tan spot (Pyrenophora yellow leaf blotch, yellow spot) response in the plants caused by the agent Pyrenophora tritici-repentis (helminthosporium tritici-repentis). Symptoms: the lesions appear as tan to brown flecks, which expand into large, irregular, oval- or lens-shaped tan blotches with a yellow or chlorotic margin.",official,,
+CO_321:0001406,TanSpotSev_E_00to99text,TANSPOT_00_99text__SEV,Tan spot severity,TanSpotSev,,Double digit (00-99) + text,"Tan spot (Pyrenophora yellow leaf blotch, yellow spot) severity in the plants caused by the agent Pyrenophora tritici-repentis (helminthosporium tritici-repentis). Symptoms: the lesions appear as tan to brown flecks, which expand into large, irregular, oval- or lens-shaped tan blotches with a yellow or chlorotic margin.",official,,
+CO_321:0001407,TanSpotSev_E_00to99,TANSPOT_00_99__SEV,Tan spot severity,TanSpotSev,,Double digit (00-99),"Tan spot (Pyrenophora yellow leaf blotch, yellow spot) severity in the plants caused by the agent Pyrenophora tritici-repentis (helminthosporium tritici-repentis). Symptoms: the lesions appear as tan to brown flecks, which expand into large, irregular, oval- or lens-shaped tan blotches with a yellow or chlorotic margin.",official,,
+CO_321:0001408,TSpl_date_ymd,"TSD_yyyymmdd, TSD",Terminal spikelet time,TSpl,TS,yyyymmdd,"Terminal spikelet time is when the last spikelet, the terminal spikelet, has been produced.",official,,
+CO_321:0001409,TSpl_dto_day,"DTTS_days, DTTS",Terminal spikelet time,TSpl,TS,day,"Terminal spikelet time is when the last spikelet, the terminal spikelet, has been produced.",official,,
+CO_321:0001410,TN_Ct_Tllrm,TNO_tll_m,Tiller number,TN,"TllNo, TNO",tiller/m,"Number of total tillers (fertile and infertile) per unit area, sample or plant.",official,0.0,1000.0
+CO_321:0001412,TN_Ct_TllrPlnt,TNO_tll_pl,Tiller number,TN,"TllNo, TNO",tiller/plant,"Number of total tillers (fertile and infertile) per unit area, sample or plant.",official,,
+CO_321:0001413,TllrCapacity_E_1to5,TllrCAPACITY_1_5,Tillering capacity,TllrCapacity,,1-5 scoring scale,An tillering capacity.,official,,
+CO_321:0001414,TlaevInc_E_pct,TLAEV_pct__INC,Tilletia laevis bunt incidence,TlaevInc,"TLAEV, CB",%,"Bunt incidence in the plants caused by the agent Tilletia laevis (stinking bunt, covered smut, hill bunt, complete bunt, low bunt, high bunt). ",official,0.0,100.0
+CO_321:0001415,TtritInc_E_pct,TTRIT _pct__INC,Tilletia tritici bunt incidence,TtritInc,"TTRIT, CB",%,"Bunt incidence in the plants caused by the agent Tilletia tritici (stinking bunt, covered smut, hill bunt, complete bunt, low bunt, high bunt). ",official,0.0,100.0
+CO_321:0001416,T1BL1RS_M_0to1,T1BL1RS_0_1,Translocation 1BL/1RS ,T1BL1RS,1BL1RS,0-1 absent-present,The 1bl/1rs translocation in wheat resulted from replacing the short arm of the chromosome 1b of wheat by the short arm of the chromosome 1r of rye (Secale cereale l.).,official,,
+CO_321:0001417,WtrLoggDmg_E_0to9,H2ODMG _0_9,Waterlogging damage,WtrLoggDmg,H2ODMG ,0-9 DAMAGE scale,Plants killed as a result of winter conditions. ,official,,
+CO_321:0001418,WMFlrCol_M_avalue,WMFLRCOL_a_value,Whole meal flour color,WMFlrCol,,a value,The whole meal flour color.,official,,
+CO_321:0001419,WMFlrCol_M_bvalue,WMFLRCOL_b_value,Whole meal flour color,WMFlrCol,,b value,The whole meal flour color.,official,,
+CO_321:0001420,WMFlrCol_M_Lvalue,WMFLRCOL_L_value,Whole meal flour color,WMFlrCol,,L value,The whole meal flour color.,official,,
+CO_321:0001421,WMFlrFN_M_s,WMFLRFN_s,Whole meal flour falling number,WMFlrFN,,s,"Indication of the amount of sprout damage that has occurred within a wheat sample. falling number value of 350 seconds or longer indicates a low enzyme activity and very sound wheat quality. as the amount of enzyme activity increases, the falling number decreases. Values below 200 seconds indicate high levels of enzyme activity.",official,60.0,1000.0
+CO_321:0001422,WMFlrSDS_M_ml,WMFLRSDS_ml,Whole meal flour SDS sedimentation,WMFlrSDS,,ml,"Testing of whole-meal flour quality by SDS-sedimentation, a test estimating gluten-protein overall quality.",official,4.0,25.0
+CO_321:0001423,WMFlrYellPig_M_ppm,WMFLRYELPIG_ppm,Whole meal flour yellow pigment content,WMFlrYellPig,WMFLRYELPIG,ppm,Whole meal flour yellow pigment content due to the presence of xanthophyll and other related compounds.,official,1.0,15.0
+CO_321:0001424,WKill_E_0to9,WKILL_0_9,Winter kill damage,WKill,,0-9 DAMAGE scale,Plants killed as a result of winter conditions. ,official,,
+CO_321:0001425,WKill_E_pct,WKILL_pct,Winter kill damage,WKill,,%,Plants killed as a result of winter conditions. ,official,0.0,100.0
+CO_321:0001426,WKill_E_1to5,WKILL_1_5,Winter kill damage,WKill,,1-5 DMG scale,Plants killed as a result of winter conditions. ,official,,
+CO_321:0001427,WormDmg_E_pct,WORMDMG_pct,Worm damage,WormDmg,,%,The plant damage caused by worms.,official,0.0,100.0
+CO_321:0001438,BLBSev_E_pct,,Bacterial leaf blight severity,BLBSev,PsyriSev,%,"Wheat bacterial leaf blight severity in the plants caused by the agent Pseudomonas syringae pv. syringae. symptoms: small (less than 0.04 inches) water-soaked lesions expand and eventually coalesce. initial lesions become necrotic and turn from gray-green to tan-white. Entire leaves may become necrotic, but heads and glumes are typically symptomless.",official,0.0,100.0
+CO_321:0001439,RsecaSev_E_pct,,Barley scald severity,RsecaSev,RSECA,%,Barley scald severity in the plants caused by the agent Rhynchosporium secalis. ,official,0.0,100.0
+CO_321:0001440,FgramSev_E_pct,,Fusarium graminearum severity,FgramSev,FGRAML,%,Fusarium graminearum severity in the plants.,official,0.0,100.0
+CO_321:0001441,FnivLBSev_E_pct,,Fusarium leaf blotch severity,FnivLBSev,,%,"Fusarium leaf blotch (pink snow mold, fusarium patch) severity in the plants caused by the agent Calonectria nivalis (fusarium nivale).",official,0.0,100.0
+CO_321:0001442,HelSpSev_E_pct,,Helminthosporium species severity,HelSpSev,,%,The disease severity in the plants caused by the agent Helminthosporium species.,official,0.0,100.0
+CO_321:0001443,HtereSev_E_pct,,Net blotch severity,HtereSev,,%,Net blotch severity in the plants caused by the agent Pyrenophora teres (Helminthosporium teres).,official,0.0,100.0
+CO_321:0001444,EgramSev_E_pct,,Powdery mildew severity,EgramSev,EGRAM,%,Powdery mildew severity in the plants caused by the agent Blumeria graminis (Erysiphe graminis) f. sp. tritici.,official,0.0,100.0
+CO_321:0001445,SepSpSev_E_pct,,Septoria blotch severity,SepSpSev,,%,Septoria blotch severity in the plants caused by the agent Septoria species.,official,0.0,100.0
+CO_321:0001446,SnodoSev_E_pct,,Septoria nodorum blotch severity,SnodoSev,,%,Septoria nodorum blotch severity in the plants caused by the agent Stagonospora nodorum (syn. Septoria glume blotch) (Phaeosphaeria nodorum (E. Müller) Hedjaroude (syn. Stagonospora nodorum). ,official,0.0,100.0
+CO_321:0001447,StritSev_E_pct,,Septoria tritici blotch severity,StritSev,STRIT,%,Septoria tritici blotch severity in the plants caused by the agent Mycosphaerella graminicola (Septoria tritici). symptoms: the lesions are linear and restricted laterally.,official,0.0,100.0
+CO_321:0001448,HsatiLSev_E_pct,,Spot blotch severity,HsatiLSev,HSATIL,%,Spot blotch severity in the plants caused by the agent Cochliobolus sativus (Helminthosporium sativum). ,official,0.0,100.0
+CO_321:0001449,TanSpotSev_E_pct,,Tan spot severity,TanSpotSev,,%,"Tan spot (Pyrenophora yellow leaf blotch, yellow spot) severity in the plants caused by the agent Pyrenophora tritici-repentis (Helminthosporium tritici-repentis). Symptoms: the lesions appear as tan to brown flecks, which expand into large, irregular, oval- or lens-shaped tan blotches with a yellow or chlorotic margin.",official,0.0,100.0
+CO_321:0001450,MgrisSev_E_pct,,Wheat blast severity ,MgrisSev,,%,"Wheat blast severity in the spikes caused by the agent Magnaporthe grisea (Pyricularia oryzae). Symptoms: It can infect all above-ground parts of the wheat plant, but head blast, resembling Fusarium head blight in appearance, is the most common symptom in the field. Infected spikes become bleached and produce small shriveled seed or none at all.",official,0.0,100.0
+CO_321:0001451,ForgDM_E_pct,,Forage dry matter ,ForgDM,,%,Forage dry matter. ,official,0.0,100.0
+CO_321:0001452,Wsurv_E_pct,,Winter survival,Wsurv,,%,"Ability to survive or withstand cold temperatures in the late fall, winter, or early spring.",official,1.0,100.0
+CO_321:0001453,AwnCol_E_1to6,,Awn color,AwnCol,,1-6 COLOR scale,Awn color.,official,,
+CO_321:0001454,GNDVI_M_Idx,GNDVI_index,Canopy green normalized difference vegetation index,GNDVI,,index,Normalized difference vegetation index is used to measure vegetative greenness and canopy photosynthetic size.,official,-1.0,1.0
+CO_321:0001455,RNDVI_M_Idx,RNDVI_index,Canopy red normalized difference vegetation index,RNDVI,,index,Normalized difference vegetation index is used to measure vegetative greenness and canopy photosynthetic size.,official,-1.0,1.0
+CO_321:0001456,GAmyloPec_M_pct,,Grain amylopectin content,GAmyloPec,,%,Content of amylopectin in grain.,official,,
+CO_321:0001457,GLys_M_pct,,Grain lysine content,GLys,,%,Lysine content of the kernel/grain.,official,,
+CO_321:0001458,RachLng_M_mm,,Rachis length,RachLng,,mm,Length of rachis.,official,,
+CO_321:0001459,SpkTyp_E_1to6,,Spike type,SpkTyp,,1-6 SPKTYPE scale,Shape characteristics of typical mature spikes.,official,,
+CO_321:0001461,StmCol_E_1to6,,Stem color,StmCol,,1-6 COLOR scale,Color of the stems.,official,,
+CO_321:0001462,StrawBreak_E_1to9,,Straw breakage,StrawBreak,,1-9 STRAWBREAK scale,Amount of straw breakage.,official,,
+CO_321:0001463,StrawCol_E_1to6,,Straw color,StrawCol,,1-6 COLOR scale,Color of straw.,official,,
+CO_321:0001464,StrawStn_E_1to3,,Straw strength,StrawStn,,1-3 STRAWStrength,Strength of straw.,official,,
+CO_321:0001465,StrawYld_E_tha,,Straw yield,StrawYld,,t/ha,Amount (weight) of straw.,official,,
+CO_321:0001466,WMFlrAsh_E_pct,,Whole meal flour ash content,WMFlrAsh,,%,Ash content in flour.,official,,
+CO_321:0001467,GLng_M_mm,,Grain length,GLng,kernel length,mm,Length of whole grain.,official,1.0,20.0
+CO_321:0001468,GWid_M_mm,,Grain width,GWid,kernel width,mm,Width of whole grain.,official,0.1,6.0
+CO_321:0001469,GThk_M_mm,,Grain thickness,GThk,kernel thickeness,mm,Thickness of whole grain.,official,0.1,5.0
+CO_321:0001470,GSize_ScreenCount1_pct,,Grain size,GSize,"GSiz, Ksize, GrnSize",%,Grain size.,official,0.0,100.0
+CO_321:0001471,GSize_ScreenCount2_pct,,Grain size,GSize,"GSiz, Ksize, GrnSize",%,Grain size.,official,0.0,100.0
+CO_321:0001472,GSize_ScreenCount3_pct,,Grain size,GSize,"GSiz, Ksize, GrnSize",%,Grain size.,official,0.0,100.0
+CO_321:0001473,GSize_ScreenCount4_pct,,Grain size,GSize,"GSiz, Ksize, GrnSize",%,Grain size.,official,0.0,100.0
+CO_321:0001474,GSize_ScreenCount5_pct,,Grain size,GSize,"GSiz, Ksize, GrnSize",%,Grain size.,official,0.0,100.0
+CO_321:0001475,GSize_ScreenCount6_pct,,Grain size,GSize,"GSiz, Ksize, GrnSize",%,Grain size.,official,0.0,100.0
+CO_321:0001476,GSize_ScreenMass1_pct,,Grain size,GSize,"GSiz, Ksize, GrnSize",%,Grain size.,official,0.0,100.0
+CO_321:0001477,GSize_ScreenMass2_pct,,Grain size,GSize,"GSiz, Ksize, GrnSize",%,Grain size.,official,0.0,100.0
+CO_321:0001478,GSize_ScreenMass3_pct,,Grain size,GSize,"GSiz, Ksize, GrnSize",%,Grain size.,official,0.0,100.0
+CO_321:0001479,GSize_ScreenMass4_pct,,Grain size,GSize,"GSiz, Ksize, GrnSize",%,Grain size.,official,0.0,100.0
+CO_321:0001480,GSize_ScreenMass5_pct,,Grain size,GSize,"GSiz, Ksize, GrnSize",%,Grain size.,official,0.0,100.0
+CO_321:0001481,GSize_ScreenMass6_pct,,Grain size,GSize,"GSiz, Ksize, GrnSize",%,Grain size.,official,0.0,100.0
+CO_321:0001482,AnthExt_E_pct,,Anther extrusion,AnthExt,,%,Extrusion of anthers.,official,0.0,100.0
+CO_321:0001483,AnthExt_E_0to9,,Anther extrusion,AnthExt,,0-9 AnthExt,Extrusion of anthers.,official,,
+CO_321:0001595,InfertSpkN_Ct_SplSpk,,Infertile spike number,InfertSpkN,InflSPKLSP,spikelet/spike,Number of infertile spikelet per spike.,official,1.0,50.0
+CO_321:0001597,CGR_Calc_gm2day,,Crop growth rate ,CGR,CGR,g/m2/day,It is the rate of dry matter production per unit area.,official,1.0,25.0
+CO_321:0001600,GYPR_Calc_gm2day,,Grain yield production rate,GYPR,,g/m2/day,Grain yield production rate.,official,,
+CO_321:0001601,BMPR_Calc_gm2day,,Biomass production rate,BMPR,,g/m2/day,Biomass production rate.,official,,
+CO_321:0001602,TTTS_Calc_Cday,,Terminal spikelet thermal time,TTTS,,°C day,Thermal Time from emergence to Terminal Spikelet (GS30).,official,0.0,2000.0
+CO_321:0001604,TTB_Calc_Cday,,Booting thermal time,TTB,,°C day,Thermal Time from emergence  to Booting  (GS45).,official,0.0,2000.0
+CO_321:0001608,StmWSC_NIR_pct,,Stem water soluble carbohydrate,StmWSC,"STEMWSC, WSC, ",%,"Water soluble carbohydrates accumulate up to and around anthesis and are partitioned to the stem, from where they are later available as a reservoir for remobilization to the developing grains. These reserves are an important source of carbon for grain filling.",official,0.0,50.0
+CO_321:0001609,StmWSC_Atrone_pct,,Stem water soluble carbohydrate,StmWSC,"STEMWSC, WSC, ",%,"Water soluble carbohydrates accumulate up to and around anthesis and are partitioned to the stem, from where they are later available as a reservoir for remobilization to the developing grains. These reserves are an important source of carbon for grain filling.",official,0.0,50.0
+CO_321:0001610,SpkPho_Textile_pct,,Spike photosynthesis contribution,SpkPho,,%,Photosynthetic contribution of the spike (ear) to grain yield. ,official,-10.0,100.0
+CO_321:0001611,FE_Calc_Idx,,Fruiting efficiency,FE,,index,"The final outcome of the floret developmental rates (determining the number of floret primordia that reach the stage of fertile florets at anthesis) and the proportion of grain set per fertile floret (the opposite to grain abortion), per unit of spike weight.",official,0.0,500.0
+CO_321:0001613,LeafPI_M_Idx,,Leaf lamina partitioning index,LeafPI,"LPI,LamPI",index,Leaf lamina partitioning index.,official,10.0,100.0
+CO_321:0001614,LeafSPI_M_Idx,,Leaf sheath partitioning index,LeafSPI,LSPI,index,Leaf sheath partitioning index.,official,10.0,100.0
+CO_321:0001615,TSPI_M_Idx,,True stem partitioning index,TSPI,TSPI,index,True stem partitioning index.,official,10.0,60.0
+CO_321:0001616,SLA_M_m2kg1,,Specific leaf area,SLA,,m2/kg,A ratio of the leaf area to dry mass.,official,0.0,100.0
+CO_321:0001617,Anet_M_umolCO2m2s2,,Leaf net photosynthesis rate,Anet,,µmol CO2/m2/s,Carbon fixation by photosynthesis.,official,-5.0,60.0
+CO_321:0001618,Asat_M_umolCO2m2s1,,Leaf light-saturated net photosynthesis,Asat,,µmol CO2/m2/s,Carbon fixation by photosynthesis at saturating light.,official,-5.0,50.0
+CO_321:0001619,Amax_M_umolCO2m2s2,,Leaf light and carbon dioxide-saturated net photosynthesis,Amax,,µmol CO2/m2/s,Carbon fixation by photosynthesis at saturating light and CO2.,official,-5.0,60.0
+CO_321:0001620,Ci_M_umolCO2mol1,,Leaf intercellular carbon dioxide concentration,Ci,,µmol CO2/mol,Intercellular carbon dioxide concentration.,official,0.0,500.0
+CO_321:0001621,PhiPS2_M_Idx,,Leaf quantum yield of photosystem II,PhiPS2 ,,index,Quantum yield of electron transfer at PSII.,official,0.0,1.0
+CO_321:0001622,PhiCO2_M_Idx,,Leaf quantum yield of carbon dioxide fixation,PhiCO2 ,,index,Quantum yield of carbon dioxide (CO2) fixation.,official,0.0,1.0
+CO_321:0001623,ETR_M_?molm2s1,,Leaf electron transport rate ,ETR,,?mol/m2/s,Transfer of electrons during photosynthesis in light saturated leaf.,official,0.0,500.0
+CO_321:0001624,FmDA_M_Idx,,Leaf maximal fluorescence intensity,FmDL,,index,Maximal level of fluorescence intensity measured in the leaf.,official,0.0,1000.0
+CO_321:0001625,FmLA_M_Idx,,Leaf maximal fluorescence intensity,FmLA,,index,Maximal level of fluorescence intensity measured in the leaf.,official,0.0,1000.0
+CO_321:0001626,FoDA_M_Idx,,Leaf minimal fluorescence intensity,FoDA,,index,Minimal level of fluorescence intensity measured in the leaf.,official,0.0,1000.0
+CO_321:0001627,FoLA_M_Idx,,Leaf minimal fluorescence intensity,FoLA,,index,Minimal level of fluorescence intensity measured in the leaf.,official,0.0,1000.0
+CO_321:0001628,FvDA_M_Idx,,Leaf variable fluorescence ,FvDA,,index,Variable fluorescence measured in the leaf.,official,0.0,1000.0
+CO_321:0001629,FvLA_M_Idx,,leaf variable fluorescence ,FvLA,,index,Variable fluorescence measured in the leaf.,official,0.0,1000.0
+CO_321:0001630,FvDAFmDA_M_Idx,,Leaf maximum efficiency of PSII photochemistry,FvDAFmDA,,index,Maximum quantum yield of PSII measured in the leaf.,official,0.0,1000.0
+CO_321:0001631,FvLAFmLA_M_Idx,,leaf maximum efficiency of PSII photochemistry,FvLAFmLA ,,index,Maximum quantum yield of PSII measured in the leaf.,official,0.0,1000.0
+CO_321:0001632,Fs_M_Idx,,Leaf steady-state fluorescence ,Fs,,index,The fluorescence emitting during steady state.,official,0.0,1000.0
+CO_321:0001633,LeafTR_M_mmolH2Om2s1,,Leaf transpiration rate,LeafTR,Tr,mmol H2O/m2/s,Leaf transpiration rate.,official,0.0,100.0
+CO_321:0001634,CiCa_M_Idx,,Leaf intercellular to ambient carbon dioxide ratio,CiCa ,,index,Intercellular to ambient carbon dioxide ratio.,official,0.0,1000.0
+CO_321:0001635,LI_M_pct,,Canopy light interception,LI,,%,Light energy intercepted by the canopy.,official,0.0,100.0
+CO_321:0001636,RUE_Calc_gMJ,,Radiation use efficiency from stage to stage,RUE,,g/MJ,The amount of biomass produced per unit of intercepted solar radiation.,official,0.0,10.0
+,RUE_Calc_gMJ_preA,,Radiation use efficiency during pre-anthesis,RUE,,g/MJ,The amount of biomass produced per unit of intercepted solar radiation.,not official,,
+,RUE_Calc_gMJ_GF,,Radiation use efficiency during grain filling,RUE,,g/MJ,The amount of biomass produced per unit of intercepted solar radiation.,not official,,
+CO_321:0001638,LeafPSSRa_M_Idx,,Pigment simple ratio chlorophyll a,LeafPSSRa,PSSRa,index,Chlorophyll content in leaf green tissue. It includes ONLY chlorophyll-a. Chlorophyll is the green pigment found in plants.,official,0.0,1000.0
+CO_321:0001639,LeafPSSRb_M_Idx,,Pigment simple ratio chlorophyll b,LeafPSSRb,PSSRb,index,Chlorophyll content in leaf green tissue. It includes ONLY chlorophyll-b. Chlorophyll is the green pigment found in plants.,official,0.0,1000.0
+CO_321:0001640,LeafR675_M_Idx,,Leaf spectral reflectance 675 nm,LeafR675,R675,index,The normalized amount of electromagnetic radiation that is reflected by the leaf at R675 nm wavelength. ,official,0.0,20.0
+CO_321:0001641,LeafR550_M_Idx,,Leaf spectral reflectance 550 nm,LeafR550,R550,index,The normalized amount of electromagnetic radiation that is reflected by the leaf at R550 nm wavelength.,official,0.0,20.0
+CO_321:0001642,LeafR750R550_M_Idx,,Leaf spectral reflectance 750/550 nm,LeafR750R700,R750R700,index,The normalized amount of electromagnetic radiation that is reflected by the leaf at R750/R550 nm wavelength. ,official,0.0,20.0
+CO_321:0001643,LeafR750R700_M_Idx,,Leaf spectral reflectance 750/700 nm,LeafR750R700,R750R700,index,The normalized amount of electromagnetic radiation that is reflected by the leaf at R750/R700 nm wavelength. ,official,0.0,20.0
+CO_321:0001644,SpkDW_Calc_gm2,,Spike dry weight at harvest,SpkDW,,g/m2,Dry weight of spike(s) at harvest.,official,50.0,500.0
+CO_321:0001645,FLeafLLng_M_cm,,Flag leaf lamina length,FLeafLLng,,cm,Length of flag leaf lamina.,official,5.0,90.0
+CO_321:0001646,FLeafLWid_M_mm,,Flag leaf lamina width,FLeafLWid,,mm,Width of flag leaf lamina.,official,2.0,40.0
+CO_321:0001647,SpkGW_M_g,,Grain weight per spike,SpkGW,,g,Grain weight per spike.,official,0.5,5.0
+CO_321:0001648,PstriSdlgResp_E_0to8,PSTRI_0_8__SEEDRESP,Stripe rust seedling response,PstriSdlgResp,"YRustResp, YRResp, PSTRIL",0-8 Rust infection type,Stripe rust (yellow rust) response in the seedlings caused by the agent Puccinia striiformis f.sp. tritici. ,official,,
+CO_321:0001649,LRollSev_E_1to5,,Leaf rolling severity,LRollSev,,1-5 LRoll scale,"Severity of leaf rolling, usually scored under drought stress. ",official,,
+CO_321:0001650,LRollInc_E_pct,,Leaf rolling incidence,LRollInc,,%,"Incidence of leaf rolling, usually scored under drought stress. ",official,0.0,100.0
+CO_321:0001651,ISBM_E_1to5,,In-season aboveground biomass,ISBM,,1-5 scoring scale,All above-ground biomass at any developmental stage and/or at regular intervals from the emergence to physiological maturity.,official,,
+CO_321:0001657,GrnTllr_Calc_GrnTllr,,Grain number per tiller,GRATIL,,grains/tiller,Number of grains per tiller.,official,,
+CO_321:0001658,TllrGW_M_g,,Grain weight per tiller,GWTTILL,,g,Grain weight per tiller.,official,,
+,CropGrwRate_Calc_gm2day_preA,,Crop growth rate during the pre-anthesis period,,,,,not official,,
+,CropGrwRate_Calc_gm2day_InB7DAA,,Crop growth rate from initiation of booting to anthesis,,,,,not official,,
+,CropGrwRate_Calc_gm2day_GFP,,Crop growth rate during the grain filling period,,,,,not official,,
+,StmDW_M_g,,Stem plus sheath dry weight per shoot at anthesis,,,,,not official,,
+,StmDW_M_gm2,,Stem plus sheath dry weight in g/m2,,,,,not official,,
+,SpkDW_M_g,,Spike dry weight per shoot at anthesis,LamDM,LamDW,g/shoot,Lamina DW in g/shoot sampled at 7DAA,not official,,
+,CT_M_C_GFP,,Canopy temperature as the average of several measurements during the grain filling period,,,,,not official,,
+,TStmDW_M_g,,True stem dry weight per shoot at anthesis,,,,,not official,,
+,SheathDW_M_g,,Leaf sheath dry weight per shoot at anthesis,,,,,not official,,
+,BM_E_1to5,,visual biomass estimation,,,,,not official,,
+,NDVI_M_Idx_VgP,,Canopy normalized difference vegetation index as the average of several measurements during the vegetative period,,,,,not official,,
+,Int2Lng_M_cm,IntLng_M_cm_2,Length of internode 2 or peduncle -1,,,cm,Internode 2 length (peduncle -1) measured in cm and sampled at 7DAA,not official,,
+,Int3Lng_M_cm,IntLng_M_cm_3,Length of internode 3 or peduncle -2,,,cm,Internode 3 length (peduncle -2) measured in cm and sampled at 7DAA,not official,,
+,IntRLng_M_cm,IntLng_M_cm_4,Length of internode remaining after peduncle -2,,,cm,Internode remaining length (after internode 4 or peduncle -3) measured in cm and sampled at 7DAA,not official,,
+,RUE_Calc_gMJ_1,,Radiation use efficiency,RUE_E40InB,,g/MJ,The amount of biomass produced per unit of intercepted solar radiation from canopy closure to initation of booting.,not official,,
+,RUE_Calc_gMJ_2,,Radiation use efficiency,RUE_InBA,,g/MJ,The amount of biomass produced per unit of intercepted solar radiation from initation of booting to anthesis.,not official,,
+,CT_M_C_VgP,CT_M_C_vg,Canopy temperature as the average of several measurements during the vegetative period,,,,,not official,,
+,LamDW_M_g,,Lamina dry weight per shoot at anthesis,LamDM,LamDW,g/m2,Lamina DW in g/m2 sampled at 7DAA,not official,,
+,FLN_M_pct,,Nitrogen concentration in the flag leaf at seven days after anthesis,LamN,,%,Leaf lamina nitrogen content in the flag leaf at 7DAA,not official,,
+,NDVI_M_Idx_Emer,,Canopy normalized difference vegetation index at plot establishment,,,,,not official,,
+,NDVI_M_Idx_InB,,Canopy normalized difference vegetation index at initiation of booting,,,,,not official,,
+,NDVI_M_Idx_Hd,,Canopy normalized difference vegetation index,,,,,not official,,
+,NDVI_M_Idx_GFP,,Canopy normalized difference vegetation index as the average of several measurements during the grain filling period,,,,,not official,,
+,NDVI_M_Idx_t1,,Canopy normalized difference vegetation index at t1 ground base level,,,,,not official,,
+,NDVI_M_Idx_t2,,Canopy normalized difference vegetation index at t2 ground base level,,,,,not official,,
+,NDVI_M_Idx_t3,,Canopy normalized difference vegetation index at t3 ground base level,,,,,not official,,
+,NDVI_M_Idx_t4,,Canopy normalized difference vegetation index at t4 ground base level,,,,,not official,,
+,NDVI_M_Idx_t5,,Canopy normalized difference vegetation index at t5 ground base level,,,,,not official,,
+,NDVI_M_Idx_t6,,Canopy normalized difference vegetation index at t6 ground base level,,,,,not official,,
+,NDVI_M_Idx_t7,,Canopy normalized difference vegetation index at t7 ground base level,,,,,not official,,
+,NDVI_M_Idx_t8,,Canopy normalized difference vegetation index at t8 ground base level,,,,,not official,,
+,NDVI_M_Idx_t9,,Canopy normalized difference vegetation index at t9 ground base level,,,,,not official,,
+,NDVI_M_Idx_t10,,Canopy normalized difference vegetation index at t10 ground base level,,,,,not official,,
+,NDVI_M_Idx_t11,,Canopy normalized difference vegetation index at t11 ground base level,,,,,not official,,
+,NDVI_M_Idx_t12,,Canopy normalized difference vegetation index at t12 ground base level,,,,,not official,,
+,NDVI_M_Idx_t13,,Canopy normalized difference vegetation index at t13 ground base level,,,,,not official,,
+,NDVI_M_Idx_t14,,Canopy normalized difference vegetation index at t14 ground base level,,,,,not official,,
+,NDVI_M_Idx_t15,,Canopy normalized difference vegetation index at t15 ground base level,,,,,not official,,
+,NDVI_M_Idx_t16,,Canopy normalized difference vegetation index at t16 ground base level,,,,,not official,,
+,NDVI_M_Idx_RS_t1,,Canopy normalized difference vegetation index at t1 using remote sensing,,,,,not official,,
+,NDVI_M_Idx_RS_t2,,Canopy normalized difference vegetation index at t2 using remote sensing,,,,,not official,,
+,NDVI_M_Idx_RS_t3,,Canopy normalized difference vegetation index at t3 using remote sensing,,,,,not official,,
+,NDVI_M_Idx_RS_t4,,Canopy normalized difference vegetation index at t4 using remote sensing,,,,,not official,,
+,NDVI_M_Idx_RS_t5,,Canopy normalized difference vegetation index at t5 using remote sensing,,,,,not official,,
+,NDVI_M_Idx_RS_t6,,Canopy normalized difference vegetation index at t6 using remote sensing,,,,,not official,,
+,NDVI_M_Idx_RS_t7,,Canopy normalized difference vegetation index at t7 using remote sensing,,,,,not official,,
+,NDVI_M_Idx_RS_t8,,Canopy normalized difference vegetation index at t8 using remote sensing,,,,,not official,,
+,NDVI_M_Idx_RS_t9,,Canopy normalized difference vegetation index at t9 using remote sensing,,,,,not official,,
+,NDVI_M_Idx_RS_t10,,Canopy normalized difference vegetation index at t10 using remote sensing,,,,,not official,,
+,NDVI_M_Idx_RS_t11,,Canopy normalized difference vegetation index at t11 using remote sensing,,,,,not official,,
+,NDVI_M_Idx_RS_t12,,Canopy normalized difference vegetation index at t12 using remote sensing,,,,,not official,,
+,CT_M_C_t1,,Canopy temperature at t1 ground base level,,,,,not official,,
+,CT_M_C_t2,,Canopy temperature at t2 ground base level,,,,,not official,,
+,CT_M_C_t3,,Canopy temperature at t3 ground base level,,,,,not official,,
+,CT_M_C_t4,,Canopy temperature at t4 ground base level,,,,,not official,,
+,CT_M_C_t5,,Canopy temperature at t5 ground base level,,,,,not official,,
+,CT_M_C_t6,,Canopy temperature at t6 ground base level,,,,,not official,,
+,CT_M_C_t7,,Canopy temperature at t7 ground base level,,,,,not official,,
+,CT_M_C_t8,,Canopy temperature at t8 ground base level,,,,,not official,,
+,CT_M_C_t9,,Canopy temperature at t9 ground base level,,,,,not official,,
+,CT_M_C_t10,,Canopy temperature at t10 ground base level,,,,,not official,,
+,CT_M_C_t11,,Canopy temperature at t11 ground base level,,,,,not official,,
+,CT_M_C_t12,,Canopy temperature at t12 ground base level,,,,,not official,,
+,CT_M_C_t13,,Canopy temperature at t13 ground base level,,,,,not official,,
+,CT_M_C_t14,,Canopy temperature at t14 ground base level,,,,,not official,,
+,CT_M_C_t15,,Canopy temperature at t15 ground base level,,,,,not official,,
+,CT_M_C_t16,,Canopy temperature at t16 ground base level,,,,,not official,,
+,CT_M_C_t17,,Canopy temperature at t17 ground base level,,,,,not official,,
+,CT_M_C_RS_t1,,Canopy temperature at t1 using remote sensing,,,,,not official,,
+,CT_M_C_RS_t2,,Canopy temperature at t2 using remote sensing,,,,,not official,,
+,CT_M_C_RS_t3,,Canopy temperature at t3 using remote sensing,,,,,not official,,
+,CT_M_C_RS_t4,,Canopy temperature at t4 using remote sensing,,,,,not official,,
+,CT_M_C_RS_t5,,Canopy temperature at t5 using remote sensing,,,,,not official,,
+,CT_M_C_RS_t6,,Canopy temperature at t6 using remote sensing,,,,,not official,,
+,CT_M_C_RS_t7,,Canopy temperature at t7 using remote sensing,,,,,not official,,
+,CT_M_C_RS_t8,,Canopy temperature at t8 using remote sensing,,,,,not official,,
+,CT_M_C_RS_t9,,Canopy temperature at t9 using remote sensing,,,,,not official,,
+,CT_M_C_RS_t10,,Canopy temperature at t10 using remote sensing,,,,,not official,,
+,CT_M_C_RS_t11,,Canopy temperature at t11 using remote sensing,,,,,not official,,
+,CT_M_C_RS_t12,,Canopy temperature at t12 using remote sensing,,,,,not official,,
+,FLeafA_M_mm2,,Flag leaf area,,,,,not official,,
+,GlmPubDen_E_1to10,,,,,,,not official,,
+,GFR_calc_gm2day,,Grain filling rate,,GFR,,,not official,,
+,GWSP_Calc_g,,Grain weight per spike,,"GWSP,GWPS,GWSP_Calc",,,not official,,
+,ShootN_Calc_m2_40DAE,,Shoot number per unit area at forty days after emergence,,,,,not official,,
+,ShootN_Calc_m2_InB,,Shoot number per unit area at initiation of booting,,,,,not official,,
+,ShootN_Calc_m2_7DAA,,Shoot number per unit area at seven days after anthesis,,ShootN_A7,,,not official,,
+,Chl_M_CCI_Hd,,Leaf chlorophyll content in the flaf leaf at heading,,,,,not official,,
+,Chl_M_CCI_FL,,Leaf chlorophyll content in the flag leaf at anthesis,,,,,not official,,
+,Chl_M_CCI_L2,,Leaf chlorophyll content in the leaf 2 at anthesis,,,,,not official,,
+,Chl_M_CCI_L3,,Leaf chlorophyll content in the leaf 3 at anthesis,,,,,not official,,
+,Chl_M_CCI_L4,,Leaf chlorophyll content in the leaf 4 at anthesis,,,,,not official,,
+,Chl_M_CCI_t1,,Leaf chlorophyll content in the flag leaf at t1,,,,,not official,,
+,Chl_M_CCI_t2,,Leaf chlorophyll content in the flag leaf at t2,,,,,not official,,
+,Chl_M_CCI_t3,,Leaf chlorophyll content in the flag leaf at t3,,,,,not official,,
+,Chl_M_CCI_t4,,Leaf chlorophyll content in the flag leaf at t4,,,,,not official,,
+,Chl_M_CCI_t5,,Leaf chlorophyll content in the flag leaf at t5,,,,,not official,,
+,Chl_M_CCI_t6,,Leaf chlorophyll content in the flag leaf at t6,,,,,not official,,
+,Chl_M_CCI_t7,,Leaf chlorophyll content in the flag leaf at t7,,,,,not official,,
+,Chl_M_CCI_t8,,Leaf chlorophyll content in the flag leaf at t8,,,,,not official,,
+,Chl_M_CCI_t9,,Leaf chlorophyll content in the flag leaf at t9,,,,,not official,,
+,Chl_M_CCI_t10,,Leaf chlorophyll content in the flag leaf at t10,,,,,not official,,
+,LeafPubDen_E_1to10,,,,,,,not official,,
+,PlantGlau_E_1to10,,,,,,,not official,,
+,SN_Calc_Spksm2_7DAA,,Spike number per unit area at seven days after anthesis,,SpikeNo_A7,,,not official,,
+,StmWSC_M_pct_A,,Stem water soluble carbohydrate concentration at anthesis,,,,,not official,,
+,StmWSC_M_pct_PM,,Stem water soluble carbohydrate concentration at physiological maturity,,,,,not official,,
+,StmWSC_M_gm2_A,,Stem water soluble carbohydrate amount per unit area at anthesis,,,,,not official,,
+,StmWSC_M_gm2_PM,,Stem water soluble carbohydrate amount per unit area at physiological maturity,,,,,not official,,
+,SpkWSC_M_pct_A,,Spike water soluble carbohydrate concentration at anthesis,StmWSC,"STEMWSC, WSC, ",%,"Water soluble carbohydrates accumulate up to and around anthesis and are partitioned to the stem, from where they are later available as a reservoir for remobilization to the developing grains. These reserves are an important source of carbon for grain filling.",not official,,
+,SpkWSC_M_pct_PM,,Spike water soluble carbohydrate concentration at physiological maturity,,,,,not official,,
+,SpkWSC_M_gm2_A,,Spike water soluble carbohydrate amount per unit area at anthesis,,,,,not official,,
+,SpkWSC_M_gm2_PM,,Spike water soluble carbohydrate amount per unit area at physiological maturity,,,,,not official,,
+,StdEst_E_1to5,,Stand establishment,StdEst,,,Measurement of plant emergence and vigor in the field.,not official,,
+,CGR_Calc_gm2day_preA,,Crop growth rate during the pre-anthesis period,,,,,not official,,
+,CGR_Calc_gm2day_InB7DAA,,Crop growth rate from initiation of booting to anthesis,,,,,not official,,
+,CGR_Calc_gm2day_GFP,,Crop growth rate during the grain filling period,,,,,not official,,
+,SLA_M_mm2mg1,,Specific leaf area,,,,,not official,,
+,SLW_M_mgmm2,,Specific leaf weight,,,,,not official,,
+,LDW_M_pct,,Percentage of leaf dry weight,,,,,not official,,
+,Trmmol_M_mmolH2Om2s1,,Transpiration rate,,,,,not official,,
+,VpdL_M_kPa,,Vapour partial deficit,,,,,not official,,
+,qP_M_Idx,,Photochemical quenching,,,,,not official,,
+,qN_M_Idx,,Non-photochemical quenching,,,,,not official,,
+,Tleaf_M_C,,Leaf temperature,,,,,not official,,
+,RHR_M_pct,,Relative humidity of the reference in IRGAS,,,,,not official,,
+,RHS_M_pct,,Relative humidity of the sample in IRGAS,,,,,not official,,
+,LI_M_pct_40DAE,,Canopy light interception at forty days after emergence,,,,,not official,,
+,LI_M_pct_InB,,Canopy light interception at initiation of booting,,,,,not official,,
+,LI_M_pct_7DAA,,Canopy light interception at seven days after anthesis,,,,,not official,,
+,LI_M_pct_Spk_7DAA,,Canopy light interception at the spike level seven days after anthesis,,,,,not official,,
+,LI_M_pct_FL_7DAA,,Canopy light interception at the flag leaf level seven days after anthesis,,,,,not official,,
+,LI_M_pct_L2_7DAA,,Canopy light interception at the leaf 2 level seven days after anthesis,,,,,not official,,
+,LI_M_pct_L3_7DAA,,Canopy light interception at the leaf 3 level seven days after anthesis,,,,,not official,,
+,RUE_Calc_gMJ_GF1,,Radiation use efficiency during the first half of grain filling,,,,,not official,,
+,RUE_Calc_gMJ_GF2,,Radiation use efficiency during the second half of grain filling,,,,,not official,,
+,FLeafDW_M_mg,,Flag leaf lamina fresh weight,,,,,not official,,
+,FLeafFW_M_mg,,Flag leaf lamina dry weight,,,,,not official,,
+,LRollSev_E_1to10,,,,,,,not official,,
+,StLSPI_M_Idx,,Stem plus leaf sheath partitioning index,,,,,not official,,
+,StLSDW_M_g,,Stem plus leaf sheath dry weight per shoot at anthesis,,,,,not official,,
+,StLSDW_M_gm2,,Stem plus leaf sheath dry weight per shoot at anthesis,,,,,not official,,
+,SpkDW_M_gm2,,Spike dry weight per unit area at anthesis,,,,,not official,,
+,LamDW_M_gm2,,Lamina dry weight per unit area at anthesis,,,,,not official,,
+,Chl_M_CCI_L2_Hd,,Leaf chlorophyll content in the leaf 2 at heading,,,,,not official,,
+,Chl_M_CCI_L3_Hd,,Leaf chlorophyll content in the leaf 3 at heading,,,,,not official,,
+,StmPI_M_Idx,,Stem partitioning index,,,,,not official,,
+,CanArchScr_E_1to9_t1,,,,,,,not official,,
+,CanArchScr_E_1to9_t2,,,,,,,not official,,
+,LRollSev_E_1to5_t1,,Leaf rolling severity at t1,,,,,not official,,
+,LRollSev_E_1to5_t2,,Leaf rolling severity at t2,,,,,not official,,
+,,,Amax_M_umolCO2m2s2,M_UO,,,Spike Photosynthesis,no name defined,,
+,,,Asat_M_umolCO2m2s1,M_UO,,,Spike Photosynthesis,no name defined,,
+,,,Ci_M_umolCO2mol1,M_UmoC,,,Spike Photosynthesis,no name defined,,
+,,,CiCa_M_Idx,M_IX,,,Spike Photosynthesis,no name defined,,
+,,,ETR_M_?molm2s1,M_?mL,,,Spike Photosynthesis,no name defined,,
+,,,FmDA_M_Idx,M_IX,,,Spike Photosynthesis,no name defined,,
+,,,FmLA_M_Idx,M_IX,,,Spike Photosynthesis,no name defined,,
+,,,FvDAFmDA_M_Idx,FvdafmdaM,,,Spike Photosynthesis,no name defined,,
+,,,SPC GSP,,,,Spike Photosynthesis,no name defined,,
+,,,CRI2,,,,ASD,no name defined,,
+,,,EVI,,,,ASD,no name defined,,
+,,,J/Narea,,,,Wheat Physiology Predictor,no name defined,,
+,,,J/SPAD,,,,Wheat Physiology Predictor,no name defined,,
+,,,J/SPAD_Calc,Spad_CL,,,Wheat Physiology Predictor,no name defined,,
+,,,NDII,,,,ASD,no name defined,,
+,,,NDMI,,,,ASD,no name defined,,
+,,,NDWI,,,,ASD,no name defined,,
+,,,SPC GWSP,,,,Spike Photosynthesis,no name defined,,
+,,, J,,,,Wheat Physiology Predictor,no name defined,,
+,,, LMA_O,,,,Wheat Physiology Predictor,no name defined,,
+,,, N_AreaO,,,,Wheat Physiology Predictor,no name defined,,
+,,, Nmass_O,,,,Wheat Physiology Predictor,no name defined,,
+,,, R_DM,,,,Wheat Physiology Predictor,no name defined,,
+,,, R_FM,,,,Wheat Physiology Predictor,no name defined,,
+,,, R_LA,,,,Wheat Physiology Predictor,no name defined,,
+,,, SPAD_Calc,,,,Wheat Physiology Predictor,no name defined,,
+,,, Vcmax,,,,Wheat Physiology Predictor,no name defined,,
+,,, Vcmax25,,,,Wheat Physiology Predictor,no name defined,,
+,,,ARI1,,,,ASD,no name defined,,
+,,,ARI2,,,,ASD,no name defined,,
+,,,CRI1,,,,ASD,no name defined,,
+,,,NDWI_Hyp,,,,ASD,no name defined,,
+,,,NDWI2,,,,ASD,no name defined,,
+,,,NHI,,,,ASD,no name defined,,
+,,,PSRI,,,,ASD,no name defined,,
+,,,PWI,,,,ASD,no name defined,,
+,,,RARSa*2 ,,,,ASD,no name defined,,
+,,,Vcmax/Narea,NaE,,,Wheat Physiology Predictor,no name defined,,
+,,,Vcmax/SPAD,SpD,,,Wheat Physiology Predictor,no name defined,,
+,,,Spike water soluble carbohydrate_NIRS_area,WSC,,%,Water Soluble Carbohydrate in the spike at 7DAA using NIRS in g per unit area,no name defined,,
+,,,Spike water soluble carbohydrate_NIRS_pct,WSC,,%,Water Soluble Carbohydrate in the spike at 7DAA using NIRS in percentage per g of DW,no name defined,,
+,,,Spike water soluble carbohydrate_Antrone_area,WSC,,%,Water Soluble Carbohydrate in the spike at 7DAA using antrone in g per unit area,no name defined,,
+,,,Spike water soluble carbohydrate_Antrone_pct,WSC,,%,Water Soluble Carbohydrate in the spike at 7DAA using antrone in percentage per g of DW,no name defined,,
+,,,Stem water soluble carbohydrate_Antrone_area,WSC,,%,Water Soluble Carbohydrate in the true stem at 7DAA using antrone in g per unit area,no name defined,,
+,,,Stem water soluble carbohydrate_Antrone_pct,WSC,,%,Water Soluble Carbohydrate in the true stem at 7DAA using antrone in percentage per g of DW,no name defined,,
+,,,Stem water soluble carbohydrate_NIRS_area,WSC,,%,Water Soluble Carbohydrate in the true stem at 7DAA using NIRS in g per unit area,no name defined,,
+,,,Stem water soluble carbohydrate_NIRS_pct,WSC,,%,Water Soluble Carbohydrate in the true stem at 7DAA using NIRS in percentage per g of DW,no name defined,,
+,,,Vcmax/SPAD_Calc,SpD,,,Wheat Physiology Predictor,no name defined,,
+,,,Vcmax25/Narea,A,,,Wheat Physiology Predictor,no name defined,,
+,,,Vcmax25/SPAD,P,,,Wheat Physiology Predictor,no name defined,,
+,,,Vcmax25/SPAD_Calc,P,,,Wheat Physiology Predictor,no name defined,,
+,,,WI_1,,,,ASD,no name defined,,
+,,,WI_2,,,,ASD,no name defined,,
+,,,WI_3,,,,ASD,no name defined,,
+,,,WI_4,,,,ASD,no name defined,,
+,,,,,,,,no name defined,,
